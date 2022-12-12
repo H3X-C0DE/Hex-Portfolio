@@ -111,9 +111,7 @@ section {
   .main-container {
     margin: 0;
   }
-  .about-container {
-    padding: 30px 20px 30px 20px;
-  }
+
   .pitch {
     padding: 10px;
     max-width: 100%;

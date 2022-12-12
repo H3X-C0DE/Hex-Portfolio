@@ -75,3 +75,13 @@
 .tag-pink {
   background-color: #cd5b9f;
 }
+
+@media only screen and (max-width: 700px) {
+  section {
+    max-width: 100vw;
+  }
+
+  .about-container {
+    padding: 30px 20px 30px 20px;
+  }
+}
