@@ -1,0 +1,76 @@
+.social-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.social-list ul {
+  padding: 0;
+}
+.social-list li {
+  display: inline-block;
+  margin: 10px 5px;
+}
+.social-list .fa,
+.fab {
+  color: var(--dark);
+  background-color: var(--body-bg);
+  border: 1px solid var(--dark);
+  border-radius: 25px;
+  width: 50px;
+}
+
+.social-media {
+  margin: 20px auto;
+  padding: 20px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.social-media h3 {
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.social-media a,
+i {
+  font-size: 1.5em;
+  text-decoration: none;
+  padding: 15px 10px 15px 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.social-media a:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: 0.2s ease-in-out;
+  background-color: var(--dark);
+  color: var(--white);
+  border: 1px solid var(--dark);
+}
+
+.discord-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: 0.2s ease-in-out;
+  display: inline-block;
+  padding: 0;
+}
+
+.discord-btn:hover i {
+  background-color: var(--dark);
+  color: var(--white);
+  border: 1px solid var(--dark);
+}
+.discord-btn:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: 0.2s ease-in-out;
+}
