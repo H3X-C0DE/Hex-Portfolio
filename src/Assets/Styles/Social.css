@@ -19,6 +19,10 @@
   width: 50px;
 }
 
+.social-list .fa-lg {
+  line-height: 0.75em;
+}
+
 .social-media {
   margin: 20px auto;
   padding: 20px;
