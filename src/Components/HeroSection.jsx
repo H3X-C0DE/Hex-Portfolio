@@ -1,5 +1,6 @@
 import React from "react";
 import Social from "./Social";
+import "../Assets/Styles/HeroSection.css";
 import pfp from "../Assets/Images/vetle.jpg";
 export default function HeroSection() {
   return (
