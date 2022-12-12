@@ -9,12 +9,14 @@ function scrollFunction() {
     document.getElementById("logo").style.width = "20px";
     document.getElementById("logo-link").style.top = "10px";
     document.getElementById("navbar-menu").style.top = "10px";
+    document.getElementById("navbar-toggle").style.top = "10px";
   } else {
     //when at the top in default mode
     document.getElementById("navbar").style.top = "0px";
     document.getElementById("logo").style.width = "35px";
     document.getElementById("logo-link").style.top = "0px";
     document.getElementById("navbar-menu").style.top = "0px";
+    document.getElementById("navbar-toggle").style.top = "0px";
   }
 }
 
