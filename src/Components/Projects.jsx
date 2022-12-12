@@ -1,4 +1,5 @@
 import React from "react";
+import "../Assets/Styles/Projects.css";
 import berserkImage from "../Assets/Images/projects/ParallaxBerserk.jpg";
 import securityGenImage from "../Assets/Images/projects/404Security.jpg";
 import soundPad from "../Assets/Images/projects/soundPad.jpg";

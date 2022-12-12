@@ -1,11 +1,11 @@
 import React from "react";
-
+import "../Assets/Styles/AnimatedBg.css";
 export default function AnimatedBg() {
   return (
     <>
-      <div className="bg"></div>
-      <div className="bg bg2"></div>
-      <div div className="bg bg3"></div>
+      <div div="true" className="bg"></div>
+      <div div="true" className="bg bg2"></div>
+      <div div="true" className="bg bg3"></div>
     </>
   );
 }
