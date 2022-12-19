@@ -27,14 +27,24 @@ export default function About() {
               <div className="tag tag-teal">#Adobe Illustrator</div>
               <div className="tag tag-teal">#Figma</div>
             </div>
+
+            <h3>Known Skills</h3>
+            <div className="tag-content">
+              <div className="tag tag-purple">#HTML5</div>
+              <div className="tag tag-purple">#CSS</div>
+              <div className="tag tag-purple">#Basic UI & UX</div>
+              <div className="tag tag-purple">#Web design</div>
+            </div>
+
             <h3>Learning</h3>
             <div className="tag-content">
-              <div className="tag tag-pink">#HTML5</div>
-              <div className="tag tag-pink">#CSS</div>
+              {/* <div className="tag tag-pink">#HTML5</div>
+              <div className="tag tag-pink">#CSS</div> */}
               <div className="tag tag-pink">#Javascript</div>
               <div className="tag tag-pink">#React</div>
               <div className="tag tag-pink">#Basic human decency</div>
               <div className="tag tag-pink">#Rest Api</div>
+              <div className="tag tag-pink">Tailwind</div>
             </div>
           </div>
         </div>
