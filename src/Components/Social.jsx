@@ -1,5 +1,5 @@
 import React from "react";
-import "../Assets/Styles/Social.css";
+import "../Styles/Social.css";
 export default function Social() {
   return (
     <div className="social-media">

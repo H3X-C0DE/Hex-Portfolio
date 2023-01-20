@@ -1,6 +1,6 @@
 //TODO: add Navbar & Contact from.
 //TODO: add / convert javascript functions.
-import "./App.css";
+import "./Styles/App.css";
 
 // import Navbar from "./Components/Contact";
 import HeroSection from "./Components/HeroSection";

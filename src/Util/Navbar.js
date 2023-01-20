@@ -31,7 +31,7 @@ function scrollFunction() {
 // navbarToggle.addEventListener("click", toggleNavbarVisibility);
 
 // const navbarMenu = document.querySelector("#navbar-menu");
-// const navbarLinksContainer = navbarMenu.querySelector(".navbar-links");
+// const navbarLinksContainer = navbarMenu.querySelector(".navbar-list");
 
 // navbarLinksContainer.addEventListener("click", (e) => e.stopPropagation());
 // navbarMenu.addEventListener("click", toggleNavbarVisibility);

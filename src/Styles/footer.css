@@ -1,0 +1,16 @@
+.footer-container {
+  /* CSS  */
+}
+
+.page-end {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #dcdcdc;
+  padding: 1em;
+}
+.page-end span {
+  text-align: center;
+  font-size: 0.7em;
+  color: var(--gray-700);
+}
