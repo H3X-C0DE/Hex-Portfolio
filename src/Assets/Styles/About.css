@@ -42,7 +42,9 @@
 .hidden {
   display: none;
 }
-
+.tag-title {
+  margin: 1em 0 1em 0;
+}
 .tag-content {
   display: flex;
   flex-wrap: wrap;
