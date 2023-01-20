@@ -8,16 +8,16 @@ export default function About() {
         <div className="pitch">
           <p>
             Heisann! mitt navn er Vetle. Jeg holder for tiden på med å studere
-            front-end utvikling for å kunne få meg en IT relatert jobb I et
-            spennende og kreativ Jobb.
+            front-end utvikling for å kunne få meg en IT relatert, spennende og
+            kreativ Jobb.
           </p>
           <p>
             Interessen min for webutvikling begynte med brukerprofiler på
             nettsider som hadde muligheter til å bruke CSS og BBcoder til å
             gjøre profilen mer unike. Interessen min har bare vokst siden den
-            gang. Har alltid elsket å være kreative og jobbe med visuelt arbeid
-            som photography, design, og lignende. På fritiden liker jeg å spille
-            dataspill med venner på nett og se serier.
+            gang siden jeg alltid elsker å være kreative og jobbe med visuelt
+            arbeid som fotografering, design og lignende. På fritiden liker jeg
+            å spille dataspill med venner på nett og se serier.
           </p>
           <div className="tag-container">
             <h3 className="tag-title">Tools of trade</h3>
@@ -26,7 +26,6 @@ export default function About() {
               <div className="tag tag-teal">#Adobe PhotoShop</div>
               <div className="tag tag-teal">#Adobe Illustrator</div>
               <div className="tag tag-teal">#Figma</div>
-              <div className="tag tag-teal">#Canon_Camera</div>
             </div>
 
             <h3 className="tag-title">Skills</h3>

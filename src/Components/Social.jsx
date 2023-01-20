@@ -6,34 +6,42 @@ export default function Social() {
       <h3>Social Media</h3>
       <div className="social-list">
         <ul>
-          <li>
-            {/* <a
+          {/* <li>
+            <a
               target="_blank"
+              rel="noreferrer"
               href="https://twitter.com/IIHEXYII"
-              className="fa fa-lg fa-twitter"
             >
-            </a> */}
-          </li>
+              {" "}
+              <i className="fa fa-lg fa-twitter"></i>
+            </a>
+          </li> */}
           <li>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/H3X-C0DE"
-              className="fa fa-lg fa-github"
-            ></a>
+            >
+              <i className="fa fa-lg fa-github"></i>
+            </a>
           </li>
           <li>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/in/vetle-tessem/"
-              className="fa fa-lg fa-linkedin"
-            ></a>
+            >
+              <i className="fa fa-lg fa-linkedin"></i>
+            </a>
           </li>
           <li>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.instagram.com/iihexyii/"
-              className="fa fa-lg fa-instagram"
-            ></a>
+            >
+              <i className="fa fa-lg fa-instagram"></i>
+            </a>
           </li>
           {/* <button className="discord-btn" onclick="CopyToClip()">
             <i className="fab fa-discord"></i>
