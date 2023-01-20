@@ -1,5 +1,5 @@
 import React from "react";
-import "../Assets/Styles/About.css";
+import "../Styles/About.css";
 export default function About() {
   return (
     <section id="top-about">
