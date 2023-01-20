@@ -1,5 +1,5 @@
 import React from "react";
-import "../Assets/Styles/Navbar.css";
+import "../Styles/Navbar.css";
 import "../Util/Navbar.js";
 import logo from "../Assets/Images/hex-logo-dark.png";
 export default function Navbar() {
@@ -21,7 +21,7 @@ export default function Navbar() {
         <span className="icon-bar"></span>
       </button>
       <div id="navbar-menu" aria-labelledby="navbar-toggle">
-        <ul className="navbar-links">
+        <ul className="navbar-list">
           <li className="navbar-item slide">
             <a className="navbar-link" href="#top-home">
               Home
