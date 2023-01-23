@@ -1,7 +1,7 @@
 import React from "react";
 import Social from "./Social";
 import "../Styles/HeroSection.css";
-import pfp from "../Assets/Images/vetle.jpg";
+import PfpToggle from "./misc/pfpToggle";
 export default function HeroSection() {
   return (
     <div id="top-home" className="main-container">
@@ -11,12 +11,8 @@ export default function HeroSection() {
           <div className="pfp-container">
             <div className="spinner">
               <div className="spinner-content">
-                <img
-                  id="avatar"
-                  className="pfp"
-                  src={pfp}
-                  alt="picture of Vetle's face"
-                />
+                {/* <img id="avatar" className="pfp" src={pfp} alt="Vetle's face" /> */}
+                <PfpToggle />
               </div>
             </div>
           </div>

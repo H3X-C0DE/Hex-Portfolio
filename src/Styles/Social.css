@@ -40,7 +40,7 @@
   text-transform: uppercase;
 }
 
-.social-media a,
+.social-media i,
 i {
   font-size: 1.5em;
   text-decoration: none;
@@ -48,7 +48,7 @@ i {
   transition: 0.2s ease-in-out;
 }
 
-.social-media a:hover {
+.social-media i:hover {
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
   transform: scale(0.9);
@@ -58,7 +58,7 @@ i {
   border: 1px solid var(--dark);
 }
 
-.discord-btn {
+/* .discord-btn {
   cursor: pointer;
   background: none;
   border: none;
@@ -77,4 +77,4 @@ i {
   -ms-transform: scale(0.9);
   transform: scale(0.9);
   transition: 0.2s ease-in-out;
-}
+} */
