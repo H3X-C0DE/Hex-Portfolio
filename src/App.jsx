@@ -4,7 +4,7 @@ import "./Styles/App.css";
 
 // import Navbar from "./Components/Contact";
 import HeroSection from "./Components/HeroSection";
-import AnimatedBg from "./Components/AnimatedBg";
+import AnimatedBg from "./Components/misc/AnimatedBg";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 // import Contact from "./Components/Contact";
