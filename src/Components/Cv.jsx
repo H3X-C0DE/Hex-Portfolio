@@ -9,6 +9,7 @@ export default function Cv() {
     <section id="top-cv">
       <div className="cv">
         <div className="cv-container">
+          <h2 className="about-title">Curriculum Vitae</h2>
           <h2 className="cv-title">Experience</h2>
           <div className="cv-card">
             <img src={img1} alt="company logo" />
