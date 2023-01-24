@@ -26,6 +26,11 @@ export default function Dropdown() {
               About
             </a>
           </li>
+          <li className="navbar-item slide">
+            <a className="navbar-link" href="#top-cv">
+              Cv
+            </a>
+          </li>
           <li>
             <a className="navbar-link" href="#top-portfolio">
               Portfolio

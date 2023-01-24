@@ -14,13 +14,18 @@ export default function Navbar() {
       <div id="navbar-menu">
         <ul className="navbar-list">
           <li className="navbar-item slide">
-            <a className="navbar-link" href="#top-home">
+            <a className="navbar-link active" href="#top-home">
               Home
             </a>
           </li>
           <li className="navbar-item slide">
             <a className="navbar-link" href="#top-about">
               About
+            </a>
+          </li>
+          <li className="navbar-item slide">
+            <a className="navbar-link" href="#top-cv">
+              Cv
             </a>
           </li>
           <li className="navbar-item slide">
