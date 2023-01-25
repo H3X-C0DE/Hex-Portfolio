@@ -1,0 +1,62 @@
+.noPage-title {
+  font-size: 8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: "Righteous", cursive;
+
+  text-shadow: 3px 5px 2px var(--gray-400);
+}
+.noPage-under-title {
+  font-size: 1em;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-right: solid 2px var(--light-green);
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--body-color);
+  max-width: fit-content;
+
+  /*-------------Animation-------------*/
+
+  animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite;
+  animation-delay: 1s;
+}
+
+/* CSS */
+.goBack404 {
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+  margin: 5em auto 2em;
+}
+
+.goBack404:hover,
+.goBack404:focus {
+  opacity: 0.75;
+}
