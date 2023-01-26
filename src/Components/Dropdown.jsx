@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import "../Styles/Navbar.css";
 
 export default function Dropdown() {
@@ -7,6 +7,15 @@ export default function Dropdown() {
   const [isActive, setIsActive] = useState(false);
   const onClick = () => setIsActive(!isActive);
 
+  // Closes Dropdown menu when mousedown is detected outside of menu
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (!dropdownRef.current.contains(event.target)) {
+        setIsActive(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+  }, [dropdownRef]);
   return (
     <div className="menu-container">
       <button onClick={onClick} className="menu-trigger">
