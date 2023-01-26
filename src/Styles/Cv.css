@@ -45,3 +45,26 @@
     padding: 30px 20px 30px 20px;
   }
 }
+
+.seeMore {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+.seeMore-button {
+  display: flex;
+  justify-content: end;
+}
+
+.seeMore button {
+  max-width: 100px;
+  border: none;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: var(--body-bg);
+  font-weight: 700;
+  transition: 0.3s;
+}
+.seeMore button:hover {
+  background-color: var(--body-bg);
+}

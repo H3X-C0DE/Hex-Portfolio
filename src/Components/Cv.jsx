@@ -5,6 +5,7 @@ import img1 from "../Assets/Images/ecPlay.jpg";
 import img2 from "../Assets/Images/noroff.jpg";
 import img3 from "../Assets/Images/nova.jpg";
 import img4 from "../Assets/Images/jobLoop.jpg";
+import SeeMore from "./misc/seeMore";
 
 export default function Cv() {
   return (
@@ -47,8 +48,26 @@ export default function Cv() {
               </p>
             </div>
           </div>
-          <button id="see-more-button">TEST</button>
-          <div id="more-content">YOU SEE ME!</div>
+          <SeeMore>
+            <div className="cv-card">
+              <img src={placeholderImg} alt="company logo" />
+              <div className="cv-card-content">
+                <h3>Frivilig</h3>
+                <p className="cv-card-under-title">
+                  NOVA Spektrum <span>·</span> Seasonal
+                </p>
+                <p className="cv-card-info">Nov 2014 - Nov 2022 </p>
+                <p className="cv-card-info">Lillestrøm, Viken, Norway</p>
+                <p>
+                  Har jobbet på Spillexpo I flere år som frivilig. jeg reiser
+                  tilbake vært år for å delta, nå er jeg med som frivilig leder
+                  for andre frivilige og hjelper til 110% i de 3 dagene det
+                  pågår sånn at Spillexpo er og blir en fantastik opplevelse for
+                  så mange som mulig, for både gjester og frivilige.
+                </p>
+              </div>
+            </div>
+          </SeeMore>
 
           <h2 className="cv-title">Utdanning</h2>
           <div className="utdanning">
@@ -87,6 +106,7 @@ export default function Cv() {
                 </p>
               </div>
             </div>
+            <SeeMore>More Content</SeeMore>
           </div>
         </div>
       </div>

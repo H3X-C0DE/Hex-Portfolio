@@ -1,14 +1,18 @@
-const seeMoreButton = document.getElementById("see-more-button");
-const moreContent = document.getElementById("more-content");
+import React, { useState } from "react";
 
-function toggleMoreContent() {
-  if (moreContent.style.display === "none") {
-    moreContent.style.display = "block";
-    seeMoreButton.innerHTML = "See Less";
-  } else {
-    moreContent.style.display = "none";
-    seeMoreButton.innerHTML = "See More";
-  }
+function SeeMore({ children }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  return (
+    <div className="seeMore">
+      {isExpanded ? children : null}
+      <div className="seeMore-button">
+        <button onClick={() => setIsExpanded(!isExpanded)}>
+          {isExpanded ? "See Less" : "See More"}
+        </button>
+      </div>
+    </div>
+  );
 }
 
-seeMoreButton.addEventListener("click", toggleMoreContent);
+export default SeeMore;
