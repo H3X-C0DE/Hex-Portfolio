@@ -9,8 +9,80 @@
   background-color: #dcdcdc;
   padding: 0.6em;
 }
-.page-end span {
+.page-end a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.page-end i {
+  font-size: 0.5em;
+  line-height: 0.7em;
+}
+.page-end p {
   text-align: center;
-  font-size: 0.7em;
+  font-size: 0.7rem;
   color: var(--gray-700);
+  font-size: 0.7em;
+  margin: 1em 0;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.5);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+.fa-heart {
+  animation: beat 1.5s infinite;
+  color: crimson;
+}
+.fa-heart:hover {
+  animation: beat 0.5s infinite;
+}
+
+.tooltip {
+  position: relative;
+  width: fit-content;
+  /* display: inline-block; */
+  /* border-bottom: 1px dotted black; */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  /* background-color: #555; */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 75%;
+  /* left: 50%; */
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.7em;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  /* border-style: solid; */
+  /* border-color: #555 transparent transparent transparent; */
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
