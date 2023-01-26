@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useRef } from "react";
 import "../Styles/Navbar.css";
+
 export default function Dropdown() {
   const dropdownRef = useRef(null);
   const [isActive, setIsActive] = useState(false);
@@ -9,7 +10,9 @@ export default function Dropdown() {
   return (
     <div className="menu-container">
       <button onClick={onClick} className="menu-trigger">
-        <span>&lt; MENU &#47;&gt;</span>
+        <span>
+          <i className="fa-solid fa-burger"></i>
+        </span>
       </button>
       <nav
         ref={dropdownRef}
@@ -36,7 +39,7 @@ export default function Dropdown() {
               Portfolio
             </a>
           </li>
-          <li>
+          <li className="last-li">
             <a className="navbar-link" href="#top-contact">
               Contact
             </a>
