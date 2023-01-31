@@ -5,6 +5,7 @@ import img1 from "../Assets/Images/ecPlay.jpg";
 import img2 from "../Assets/Images/noroff.jpg";
 import img3 from "../Assets/Images/nova.jpg";
 import img4 from "../Assets/Images/jobLoop.jpg";
+import img5 from "../Assets/Images/sharpsborg.jpg";
 import SeeMore from "./misc/seeMore";
 
 export default function Cv() {
@@ -72,23 +73,6 @@ export default function Cv() {
           <h2 className="cv-title">Utdanning</h2>
           <div className="utdanning">
             <div className="cv-card">
-              <img src={img2} alt="company logo" />
-              <div className="cv-card-content">
-                <h3>Noroff</h3>
-                <p className="cv-card-under-title">
-                  University <span>·</span> Front-End Development
-                </p>
-                <p className="cv-card-info">Aug 2019 - May 2021</p>
-                <p className="cv-card-info">Bergen, Norge</p>
-                <p>
-                  Lærte basic nivå i design, HTML5, CSS, Javascript, React,
-                  Rest-API, Word-press, og Typography bare for å nevne noe.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="utdanning">
-            <div className="cv-card">
               <img src={img4} alt="company logo" />
               <div className="cv-card-content">
                 <h3>KodeHode</h3>
@@ -106,7 +90,59 @@ export default function Cv() {
                 </p>
               </div>
             </div>
-            <SeeMore>More Content</SeeMore>
+            <div className="utdanning">
+              <div className="cv-card">
+                <img src={img2} alt="company logo" />
+                <div className="cv-card-content">
+                  <h3>Noroff</h3>
+                  <p className="cv-card-under-title">
+                    University <span>·</span> Front-End Development
+                  </p>
+                  <p className="cv-card-info">Aug 2019 - May 2021</p>
+                  <p className="cv-card-info">Bergen, Norge</p>
+                  <p>
+                    Lærte basic nivå i design, HTML5, CSS, Javascript, React,
+                    Rest-API, Word-press, og Typography bare for å nevne noe.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <SeeMore>
+              {" "}
+              <div className="cv-card">
+                <img src={placeholderImg} alt="company logo" />
+                <div className="cv-card-content">
+                  <h3>Årstad Videregående</h3>
+                  <p className="cv-card-under-title">
+                    Videregående <span>·</span> Media og kommunikasjon
+                  </p>
+                  <p className="cv-card-info">Aug 2015 - Jun 2017</p>
+                  <p className="cv-card-info">Bergen, Hordaland, Norge</p>
+                  <p>
+                    tok opp 3rd året mitt på VGS for å fikse karakterer mens jeg
+                    gjorde noe jeg var interesert i samtidig. Så ble mye design
+                    innen f.eks product embalasje, plakat også fikk jeg lært meg
+                    videoredigering samt forbedret meg innen bilde redigering.
+                  </p>
+                </div>
+              </div>
+              <div className="cv-card">
+                <img src={img5} alt="company logo" />
+                <div className="cv-card-content">
+                  <h3>Skjeberg Folkehøyskole</h3>
+                  <p className="cv-card-under-title">
+                    Folkehøyskole <span>·</span> Grafisk design
+                  </p>
+                  <p className="cv-card-info">Aug 2011 - Mai 2012</p>
+                  <p className="cv-card-info">Sarpsborg, Østlandet, Norge</p>
+                  <p>
+                    Lærte blant annet farge teori, komposison, Typography,
+                    Photograpy og annet mix media og ikke minst samarbeid med
+                    andre.
+                  </p>
+                </div>
+              </div>
+            </SeeMore>
           </div>
         </div>
       </div>
