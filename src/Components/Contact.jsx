@@ -27,30 +27,32 @@ export default function ContactUs() {
     <section id="top-contact">
       <div className="content-wrapper">
         <h2 className="about-title">Get in contact</h2>
-        <form className="contact-form" onSubmit={sendEmail}>
-          <div className="left">
-            <input type="hidden" name="contact_number" />
-            <label>Name</label>
-            <input
-              type="text"
-              name="from_name"
-              placeholder="Your name"
-              required
-            />
-            <label>Email</label>
-            <input
-              type="email"
-              name="from_email"
-              placeholder="Email@example.com"
-              required
-            />
-            <label>Subject</label>
-            <input type="text" name="subject" placeholder="Subject" />
-          </div>
-          <div className="right">
-            <label>Message</label>
-            <textarea name="html_message" placeholder="Hello!" required />
-            <input type="submit" value="Send" />
+        <form onSubmit={sendEmail}>
+          <div className="contact-form">
+            <div className="left">
+              <input type="hidden" name="contact_number" />
+              <label>Name</label>
+              <input
+                type="text"
+                name="from_name"
+                placeholder="Your name"
+                required
+              />
+              <label>Email</label>
+              <input
+                type="email"
+                name="from_email"
+                placeholder="Email@example.com"
+                required
+              />
+              <label>Subject</label>
+              <input type="text" name="subject" placeholder="Subject" />
+            </div>
+            <div className="right">
+              <label>Message</label>
+              <textarea name="html_message" placeholder="Hello!" required />
+            </div>
+            <input id="submit-btn" type="submit" value="Send" />
           </div>
         </form>
       </div>

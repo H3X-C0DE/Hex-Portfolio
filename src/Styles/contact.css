@@ -3,15 +3,11 @@
   padding-bottom: 2em;
 }
 .contact-form {
-  /* margin: 0 auto;
-  max-width: 900px;
-  text-align: center;
-  padding: 0 20px; */
+  margin-top: 1.5em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
 .contact-form label {
   display: none;
 }
@@ -31,27 +27,30 @@ textarea {
   border: none;
 }
 .right textarea {
-  height: 63%;
+  height: 93%;
   max-width: 100%;
   min-width: 100%;
   margin: 0;
 }
-input[type="submit"] {
+#submit-btn {
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
   width: 100%;
+  max-width: 93%;
   padding: 10px;
-  background-color: var(--body-bg);
-  color: var(--gray-700);
-  border: 2px solid var(--gray-500);
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 1.5em;
 }
-input:hover[type="submit"] {
+#submit-btn:hover {
   transition: all 0.3s;
-  border: 2px solid var(--blue);
-  color: var(--blue);
+  background-color: var(--indigo);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 @media (max-width: 900px) {
@@ -60,7 +59,8 @@ input:hover[type="submit"] {
   }
 
   .left,
-  .right {
+  .right,
+  #submit-btn {
     width: 75%;
     text-align: center;
   }
