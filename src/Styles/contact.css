@@ -12,7 +12,8 @@
   display: none;
 }
 .left,
-.right {
+.right,
+.submit-container {
   width: 45%;
 }
 
@@ -37,20 +38,30 @@ textarea {
   font-weight: 600;
   line-height: 20px;
   width: 100%;
-  max-width: 93%;
   padding: 10px;
   background-color: var(--blue);
   color: var(--white);
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 1.5em;
+  margin: 0 auto;
 }
 #submit-btn:hover {
   transition: all 0.3s;
   background-color: var(--indigo);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.submit-container {
+  margin-top: 1.5em;
+}
+#isRobot {
+  display: block;
+  text-align: end;
+  font-weight: 300;
+  margin: 0 auto;
+  width: 100%;
 }
 
 @media (max-width: 900px) {
@@ -60,8 +71,13 @@ textarea {
 
   .left,
   .right,
+  .submit-container,
   #submit-btn {
     width: 75%;
     text-align: center;
+  }
+
+  #isRobot {
+    width: 75%;
   }
 }

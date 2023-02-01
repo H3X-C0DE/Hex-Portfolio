@@ -1,5 +1,6 @@
 // TODO: add ReCAPTCHA
-import React from "react";
+import React, { useState } from "react";
+
 import emailjs from "emailjs-com";
 import "../Styles/contact.css";
 export default function ContactUs() {
@@ -22,6 +23,7 @@ export default function ContactUs() {
         }
       );
   }
+  const [isRobot, setIsRobot] = useState(false);
 
   return (
     <section id="top-contact">
@@ -52,7 +54,25 @@ export default function ContactUs() {
               <label>Message</label>
               <textarea name="html_message" placeholder="Hello!" required />
             </div>
-            <input id="submit-btn" type="submit" value="Send" />
+            <div className="submit-container">
+              <label id="isRobot">
+                I'm Human&nbsp;
+                <input
+                  type="checkbox"
+                  checked={isRobot}
+                  onChange={() => setIsRobot(!isRobot)}
+                />
+              </label>
+              <input
+                id="submit-btn"
+                type="submit"
+                value="Send"
+                disabled={!isRobot}
+                style={{
+                  backgroundColor: !isRobot ? "#495057" : "#0d6efd",
+                }}
+              />
+            </div>
           </div>
         </form>
       </div>
