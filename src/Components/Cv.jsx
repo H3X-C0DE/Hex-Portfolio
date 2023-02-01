@@ -1,11 +1,13 @@
 import React from "react";
 import "../Styles/Cv.css";
-import placeholderImg from "../Assets/Images/me.jpg";
+// import placeholderImg from "../Assets/Images/me.jpg";
 import img1 from "../Assets/Images/ecPlay.jpg";
 import img2 from "../Assets/Images/noroff.jpg";
 import img3 from "../Assets/Images/nova.jpg";
 import img4 from "../Assets/Images/jobLoop.jpg";
 import img5 from "../Assets/Images/sharpsborg.jpg";
+import img6 from "../Assets/Images/vgs.jpg";
+import img7 from "../Assets/Images/bergenfest.jpg";
 import SeeMore from "./misc/seeMore";
 
 export default function Cv() {
@@ -14,18 +16,18 @@ export default function Cv() {
       <div className="cv">
         <div className="cv-container">
           <h2 className="about-title">Curriculum Vitae</h2>
-          <h2 className="cv-title">Experience</h2>
+          <h2 className="cv-title">Erfaring</h2>
           <div className="cv-card">
             <img src={img1} alt="company logo" />
             <div className="cv-card-content">
               <h3>Junior front-end developer</h3>
               <p className="cv-card-under-title">
-                EC-Play <span>·</span> Seasonal
+                EC-Play <span>·</span> Sesong
               </p>
               <p className="cv-card-info">Jun 2021 - Aug 2021 · 3 mos</p>
               <p className="cv-card-info">Bergen, Norge</p>
               <p>
-                Jeg lagde componenter til web-Appen deres i typescript Og jobbet
+                Jeg lagde componenter til web-Appen deres i typescript og jobbet
                 med design til sider som ikke var laget enda som for ekempel
                 email verification landings side og lignende.
               </p>
@@ -36,12 +38,12 @@ export default function Cv() {
             <div className="cv-card-content">
               <h3>Frivilig</h3>
               <p className="cv-card-under-title">
-                NOVA Spektrum <span>·</span> Seasonal
+                NOVA Spektrum <span>·</span> Sesong
               </p>
               <p className="cv-card-info">Nov 2014 - Nov 2022 </p>
               <p className="cv-card-info">Lillestrøm, Viken, Norway</p>
               <p>
-                Har jobbet på Spillexpo I flere år som frivilig. jeg reiser
+                Har jobbet på Spillexpo I flere år som frivilig. Jeg reiser
                 tilbake vært år for å delta, nå er jeg med som frivilig leder
                 for andre frivilige og hjelper til 110% i de 3 dagene det pågår
                 sånn at Spillexpo er og blir en fantastik opplevelse for så
@@ -51,20 +53,20 @@ export default function Cv() {
           </div>
           <SeeMore>
             <div className="cv-card">
-              <img src={placeholderImg} alt="company logo" />
+              <img src={img7} alt="company logo" />
               <div className="cv-card-content">
                 <h3>Frivilig</h3>
                 <p className="cv-card-under-title">
-                  NOVA Spektrum <span>·</span> Seasonal
+                  Bergenfest <span>·</span> Sesong
                 </p>
-                <p className="cv-card-info">Nov 2014 - Nov 2022 </p>
-                <p className="cv-card-info">Lillestrøm, Viken, Norway</p>
+                <p className="cv-card-info">Jun 2022 - Jun 2022 </p>
+                <p className="cv-card-info">Bergen, Norway</p>
                 <p>
-                  Har jobbet på Spillexpo I flere år som frivilig. jeg reiser
-                  tilbake vært år for å delta, nå er jeg med som frivilig leder
-                  for andre frivilige og hjelper til 110% i de 3 dagene det
-                  pågår sånn at Spillexpo er og blir en fantastik opplevelse for
-                  så mange som mulig, for både gjester og frivilige.
+                  Jobbet som frivillig på Bergenfest og var for det meste å
+                  passet på utstyr til andre frivillige og passet på at de som
+                  var på vakt fikk kaffe og sånt når de kom på pause, men ble
+                  også sendt på andre stasjoner hvis det var mangel på folk
+                  siden jeg var det for å hjelpe til.
                 </p>
               </div>
             </div>
@@ -110,7 +112,7 @@ export default function Cv() {
             <SeeMore>
               {" "}
               <div className="cv-card">
-                <img src={placeholderImg} alt="company logo" />
+                <img src={img6} alt="company logo" />
                 <div className="cv-card-content">
                   <h3>Årstad Videregående</h3>
                   <p className="cv-card-under-title">

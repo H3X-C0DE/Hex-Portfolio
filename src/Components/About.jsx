@@ -37,6 +37,8 @@ export default function About() {
             <div className="tag tag-purple">#UI & UX</div>
             <div className="tag tag-purple">#Javascript</div>
             <div className="tag tag-purple">#React</div>
+            <div className="tag tag-purple">#Design</div>
+            <div className="tag tag-purple">#GitHub</div>
           </div>
 
           <h3 className="tag-title">Learning</h3>
@@ -46,9 +48,10 @@ export default function About() {
             {/* <div className="tag tag-pink">#Javascript</div> */}
             <div className="tag tag-pink">#Basic Human Decency</div>
             <div className="tag tag-pink">#Rest Api</div>
-            <div className="tag tag-pink">Tailwind</div>
-            <div className="tag tag-pink">MongoDB</div>
-            <div className="tag tag-pink">Node.js/Express</div>
+            <div className="tag tag-pink">#Tailwind</div>
+            <div className="tag tag-pink">#MongoDB</div>
+            <div className="tag tag-pink">#Node.js/Express</div>
+            <div className="tag tag-pink">#Typescript</div>
           </div>
         </div>
       </div>
