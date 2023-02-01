@@ -6,8 +6,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #dcdcdc;
-  padding: 0.6em;
+  background-color: var(--body-bg);
+  /* padding: 0.6em; */
 }
 .page-end a {
   display: flex;
