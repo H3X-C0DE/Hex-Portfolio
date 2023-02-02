@@ -1,6 +1,3 @@
-//TODO: add Contact from.
-//TODO: add Cv from.
-//TODO: add / convert javascript functions.
 import "./Styles/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
