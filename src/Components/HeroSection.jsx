@@ -11,7 +11,6 @@ export default function HeroSection() {
           <div className="pfp-container">
             <div className="spinner">
               <div className="spinner-content">
-                {/* <img id="avatar" className="pfp" src={pfp} alt="Vetle's face" /> */}
                 <PfpToggle />
               </div>
             </div>
