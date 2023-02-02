@@ -1,6 +1,12 @@
 /*-------------Navigation-------------*/
 #navbar {
   transition: all 0.5s ease;
+  position: fixed;
+  height: 64px;
+  background-color: var(--body-bg);
+  left: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  z-index: 3;
 }
 .navbar-container {
   display: flex;
@@ -11,7 +17,7 @@
   margin: 0 auto;
   position: fixed;
   width: 100vw;
-  z-index: 999;
+  z-index: 3;
 }
 
 #logo-link {
@@ -38,26 +44,29 @@
   transition: all 0.5s ease-in-out;
   cursor: pointer;
 }
-
+label.fa-burger {
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+  border: none;
+  vertical-align: middle;
+  transition: all 0.4s ease;
+}
+#burgerCheck {
+  display: none;
+}
 .navbar-list:hover,
-button:hover {
+label.fa-burger:hover {
   outline: 0;
   color: var(--blue);
 }
 .navbar-list:active,
-button:active {
+label.fa-burger:active {
   outline: 0;
   color: var(--blue);
-}
-
-#navbar {
-  position: fixed;
-  height: 64px;
-  background-color: var(--body-bg);
-  left: 0;
-  /* right: 0; */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  z-index: 3;
 }
 
 .navbar-item {
@@ -113,22 +122,6 @@ button:active {
   transition: all 0.5s ease;
   position: relative;
 }
-.icon-bar {
-  display: block;
-  width: 25px;
-  height: 4px;
-  margin: 2px;
-  background-color: var(--dark);
-}
-
-#navbar-toggle:is(:focus, :hover) .icon-bar {
-  background-color: var(--blue);
-}
-.icon-bar:is(:first-child, :last-child) {
-  position: absolute;
-  margin: 0;
-  width: 30px;
-}
 
 #navbar-menu {
   position: relative;
@@ -181,28 +174,19 @@ button:active {
 }
 
 .menu li {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid var(--gray-400);
 }
 .menu ul .last-li {
   border-bottom: none;
 }
 .menu li a {
   text-decoration: none;
-  color: #333333;
+  color: var(--dark);
   padding: 15px 20px;
   display: block;
 }
 
 .menu-trigger {
-  background-color: var(--body-bg);
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4px 6px;
-  border: none;
-  vertical-align: middle;
-  transition: box-shadow 0.4s ease;
 }
 
 .menu-trigger span {
@@ -243,5 +227,11 @@ button:active {
     flex-direction: row;
     width: 100%;
     height: 100%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .navbar-container {
+    padding: 0 13em;
+    /* border: 3px solid red; */
   }
 }

@@ -39,11 +39,14 @@
 }
 
 .fa-heart {
-  animation: beat 1.5s infinite;
+  /* animation: beat 1.5s infinite; */
   color: crimson;
 }
-.fa-heart:hover {
+/* .fa-heart:hover {
   animation: beat 0.5s infinite;
+}  */
+.fa-beat:hover {
+  --fa-animation-duration: 0.5s;
 }
 
 .tooltip {
@@ -86,3 +89,4 @@
   visibility: visible;
   opacity: 1;
 }
+

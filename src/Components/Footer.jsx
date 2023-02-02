@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <a href="https://github.com/H3X-C0DE/Hex-Portfolio">
               <div className="tooltip">
-                <i className="fa-solid fa-heart "></i>
+                <i className="fa-solid fa-heart fa-beat"></i>
                 <span className="tooltiptext">( ͡~ ͜ʖ ͡° )</span>
               </div>
               <p> © 2023 Vetle Tessem</p>
