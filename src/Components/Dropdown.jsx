@@ -2,31 +2,37 @@ import React from "react";
 import { useState, useRef, useEffect } from "react";
 import "../Styles/Navbar.css";
 
-export default function Dropdown() {
+export default function Dropdown({ toggled, onClick }) {
   const dropdownRef = useRef(null);
-  const [isActive, setIsActive] = useState(false);
-  const onClick = () => setIsActive(!isActive);
-
+  const [isToggled, toggle] = useState(toggled);
+  const callback = () => {
+    toggle(!isToggled);
+  };
   // Closes Dropdown menu when mousedown is detected outside of menu
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (!dropdownRef.current.contains(event.target)) {
-        setIsActive(false);
+        toggle(false);
       }
     };
     document.addEventListener("mousedown", handleClickOutside);
   }, [dropdownRef]);
+
   return (
-    <div className="menu-container">
-      <button onClick={onClick} className="menu-trigger">
-        <span>
-          <i className="fa-solid fa-burger"></i>
-        </span>
-      </button>
-      <nav
-        ref={dropdownRef}
-        className={`menu ${isActive ? "active" : "inactive"}`}
-      >
+    <div className="menu-container" ref={dropdownRef}>
+      {/* <button onClick={buttonOnClick} className=""> */}
+      <span>
+        {/* <i className="fa-solid fa-burger"></i> */}
+        <label htmlFor="burgerCheck" className="fa-solid fa-burger"></label>
+        <input
+          id="burgerCheck"
+          type="checkbox"
+          defaultChecked={isToggled}
+          onClick={callback}
+        />
+      </span>
+      {/* </button> */}
+      <nav className={`menu ${isToggled ? "active" : "inactive"}`}>
         <ul>
           <li>
             <a className="navbar-link" href="#top-home">
@@ -38,7 +44,7 @@ export default function Dropdown() {
               About
             </a>
           </li>
-          <li className="navbar-item slide">
+          <li>
             <a className="navbar-link" href="#top-cv">
               Cv
             </a>
@@ -48,7 +54,7 @@ export default function Dropdown() {
               Portfolio
             </a>
           </li>
-          <li className="last-li">
+          <li>
             <a className="navbar-link" href="#top-contact">
               Contact
             </a>
