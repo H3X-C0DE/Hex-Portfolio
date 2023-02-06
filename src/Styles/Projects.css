@@ -1,4 +1,4 @@
-/* -------------PORTFOLIO PROJECTS------------- */
+/* -------------Projects------------- */
 /* Code By Tenzing Gaychey https://codepen.io/tgaychey/pen/PROMVy */
 .content-wrapper {
   margin: 0 auto;
@@ -23,7 +23,9 @@
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
 }
-
+.news-card a {
+  opacity: 0;
+}
 @media (min-width: 900px) {
   .news-card {
     height: 20rem;
@@ -70,6 +72,7 @@
   color: var(--white);
   text-shadow: 2px 2px 2px #000000;
   transition: background-color 1.5s ease;
+  width: 100%;
 }
 
 .news-card__title {
@@ -147,4 +150,22 @@
   padding: 0;
   margin: 0;
   background: none;
+}
+
+/* PROJECT-PAGE  */
+.page-header {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 3.5em 0.5em;
+  width: 100%;
+  font-weight: 900;
+}
+.content-wrapper-alt {
+  margin: 0 auto;
+  max-width: 950px;
+  display: flex;
+  flex-flow: column-reverse wrap;
+  justify-content: center;
+  padding: 0.5rem;
 }

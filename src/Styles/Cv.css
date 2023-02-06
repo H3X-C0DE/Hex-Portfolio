@@ -18,8 +18,7 @@
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
-.cv-card-content {
-}
+
 .cv-card-content h3 {
   margin: 0.5em 0.5em 0.1em 0.5em;
 }
@@ -49,12 +48,12 @@
 
 .seeMore {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   flex-direction: column;
 }
 .seeMore-button {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin: 0.5em;
 }
 
