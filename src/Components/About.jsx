@@ -1,15 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../Styles/About.css";
 export default function About() {
+  const [age, setAge] = useState(0);
+
+  //update Age so i don't have to update it every year :)
+  useEffect(() => {
+    const today = new Date();
+    const birthdate = new Date("August 22, 1993");
+    const diffTime = today - birthdate;
+    const ageInYears = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 365));
+    setAge(ageInYears);
+  });
+
   return (
     <section id="about">
       <div className="about-container">
         <h2 className="about-title">About</h2>
         <div className="pitch">
           <p>
-            Heisann! mitt navn er Vetle. Jeg holder for tiden på med å studere
-            front-end utvikling for å kunne få meg en IT relatert, spennende og
-            kreativ Jobb.
+            Heisann! mitt navn er Vetle jeg er {age} og holder for tiden på med
+            å studere front-end utvikling for å kunne få meg en IT relatert,
+            spennende og kreativ Jobb.
           </p>
           <p>
             Interessen min for webutvikling begynte med brukerprofiler på
