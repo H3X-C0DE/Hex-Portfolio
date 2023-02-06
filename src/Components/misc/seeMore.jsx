@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "../../Styles/seeMore.css";
 function SeeMore({ children }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
