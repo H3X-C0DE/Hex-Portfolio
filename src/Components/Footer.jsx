@@ -4,7 +4,7 @@ import "../Styles/footer.css";
 
 export default function Footer() {
   return (
-    <section id="top-Footer">
+    <section id="Footer">
       <div className="footer-container">
         <Social />
         <div className="page-end">

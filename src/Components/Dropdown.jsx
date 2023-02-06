@@ -35,27 +35,27 @@ export default function Dropdown({ toggled, onClick }) {
       <nav className={`menu ${isToggled ? "active" : "inactive"}`}>
         <ul>
           <li>
-            <a className="navbar-link" href="#top-home">
+            <a className="navbar-link" href="#home">
               Home
             </a>
           </li>
           <li>
-            <a className="navbar-link" href="#top-about">
+            <a className="navbar-link" href="#about">
               About
             </a>
           </li>
           <li>
-            <a className="navbar-link" href="#top-cv">
+            <a className="navbar-link" href="#cv">
               Cv
             </a>
           </li>
           <li>
-            <a className="navbar-link" href="#top-portfolio">
+            <a className="navbar-link" href="#portfolio">
               Portfolio
             </a>
           </li>
           <li>
-            <a className="navbar-link" href="#top-contact">
+            <a className="navbar-link" href="#contact">
               Contact
             </a>
           </li>

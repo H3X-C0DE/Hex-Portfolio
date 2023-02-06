@@ -14,27 +14,27 @@ export default function Navbar() {
       <div id="navbar-menu">
         <ul className="navbar-list">
           <li className="navbar-item slide">
-            <a className="navbar-link active" href="#top-home">
+            <a className="navbar-link active" href="#home">
               Home
             </a>
           </li>
           <li className="navbar-item slide">
-            <a className="navbar-link" href="#top-about">
+            <a className="navbar-link" href="#about">
               About
             </a>
           </li>
           <li className="navbar-item slide">
-            <a className="navbar-link" href="#top-cv">
+            <a className="navbar-link" href="#cv">
               Cv
             </a>
           </li>
           <li className="navbar-item slide">
-            <a className="navbar-link" href="#top-portfolio">
+            <a className="navbar-link" href="#portfolio">
               Portfolio
             </a>
           </li>
           <li className="navbar-item slide">
-            <a className="navbar-link" href="#top-contact">
+            <a className="navbar-link" href="#contact">
               Contact
             </a>
           </li>

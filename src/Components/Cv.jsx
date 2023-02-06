@@ -12,7 +12,7 @@ import SeeMore from "./misc/seeMore";
 
 export default function Cv() {
   return (
-    <section id="top-cv">
+    <section id="cv">
       <div className="cv">
         <div className="cv-container">
           <h2 className="about-title">Curriculum Vitae</h2>

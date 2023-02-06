@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/About.css";
 export default function About() {
   return (
-    <section id="top-about">
+    <section id="about">
       <div className="about-container">
         <h2 className="about-title">About</h2>
         <div className="pitch">

@@ -7,7 +7,7 @@ import AnimatedBg from "../Components/misc/AnimatedBg";
 
 export default function HeroSection() {
   return (
-    <div id="top-home" className="main-container">
+    <div id="home" className="main-container">
       <div className="container">
         <div className="banner-container"></div>
         <div className="info-container">

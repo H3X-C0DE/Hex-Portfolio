@@ -8,16 +8,19 @@ import theDarkGalaxy from "../Assets/Images/projects/thedarkgalaxy.jpg";
 export default function Projects() {
   // TODO:add rel="noreferrer" to all a tags
   return (
-    <section id="top-portfolio">
+    <section id="portfolio">
       <div className="content-wrapper">
         <h2 className="about-title">Portfolio</h2>
 
         <div className="news-card">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://parallax-berserk.netlify.app/"
             className="news-card__card-link"
-          ></a>
+          >
+            Parallax Berserk
+          </a>
           <img src={berserkImage} alt="" className="news-card__image" />
           <div className="news-card__text-wrapper">
             <h2 className="news-card__title">Parallax Berserk</h2>
@@ -40,9 +43,12 @@ export default function Projects() {
         <div className="news-card">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://404security.netlify.app/"
             className="news-card__card-link"
-          ></a>
+          >
+            404 Security
+          </a>
           <img src={securityGenImage} alt="" className="news-card__image" />
           <div className="news-card__text-wrapper">
             <h2 className="news-card__title">404 Security</h2>
@@ -67,9 +73,12 @@ export default function Projects() {
         <div className="news-card">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://soundpad.netlify.app/"
             className="news-card__card-link"
-          ></a>
+          >
+            Sound Pad
+          </a>
           <img src={soundPad} alt="" className="news-card__image" />
           <div className="news-card__text-wrapper">
             <h2 className="news-card__title">Sound Pad</h2>
@@ -91,9 +100,12 @@ export default function Projects() {
         <div className="news-card">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://youareawesome.netlify.app/#"
             className="news-card__card-link"
-          ></a>
+          >
+            You Are Awesome!
+          </a>
           <img src={youAreAwesome} alt="" className="news-card__image" />
           <div className="news-card__text-wrapper">
             <h2 className="news-card__title">You Are Awesome!</h2>
@@ -115,9 +127,12 @@ export default function Projects() {
         <div className="news-card">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://thedarkgalaxy.netlify.app"
             className="news-card__card-link"
-          ></a>
+          >
+            The Dark Galaxy
+          </a>
           <img src={theDarkGalaxy} alt="" className="news-card__image" />
           <div className="news-card__text-wrapper">
             <h2 className="news-card__title">The Dark Galaxy</h2>

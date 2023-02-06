@@ -26,7 +26,7 @@ export default function ContactUs() {
   const [isRobot, setIsRobot] = useState(false);
 
   return (
-    <section id="top-contact">
+    <section id="contact">
       <div className="content-wrapper">
         <h2 className="about-title">Get in contact</h2>
         <form onSubmit={sendEmail}>
