@@ -6,6 +6,7 @@ import soundPad from "../Assets/Images/projects/soundPad.jpg";
 import youAreAwesome from "../Assets/Images/projects/youareawesome.jpg";
 import theDarkGalaxy from "../Assets/Images/projects/thedarkgalaxy.jpg";
 export default function Projects() {
+  // TODO:add rel="noreferrer" to all a tags
   return (
     <section id="top-portfolio">
       <div className="content-wrapper">
