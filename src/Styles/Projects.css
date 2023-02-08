@@ -151,21 +151,14 @@
   margin: 0;
   background: none;
 }
-
-/* PROJECT-PAGE  */
-.page-header {
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  padding: 3.5em 0.5em;
-  width: 100%;
-  font-weight: 900;
-}
-.content-wrapper-alt {
-  margin: 0 auto;
+.seeMore-projects {
   max-width: 950px;
   display: flex;
-  flex-flow: column-reverse wrap;
+  flex-direction: row;
+  padding: 0 0.5em 0;
+}
+.seeMore-wrapper {
+  display: flex;
+  flex-flow: row;
   justify-content: center;
-  padding: 0.5rem;
 }
