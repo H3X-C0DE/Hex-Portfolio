@@ -4,13 +4,15 @@ export default function About() {
   const [age, setAge] = useState(0);
 
   //update Age so i don't have to update it every year :)
+  const today = new Date();
+  const birthdate = new Date("August 22, 1993");
+  const diffTime = today - birthdate;
+  const ageInDays = diffTime / (1000 * 60 * 60 * 24);
+  const ageInYears = Math.floor(ageInDays / 365);
+
   useEffect(() => {
-    const today = new Date();
-    const birthdate = new Date("August 22, 1993");
-    const diffTime = today - birthdate;
-    const ageInYears = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 365));
     setAge(ageInYears);
-  });
+  }, [ageInYears]);
 
   return (
     <section id="about">
