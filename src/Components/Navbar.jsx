@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/Navbar.css";
-import "../Util/Navbar.js";
 import logo from "../Assets/Images/hex-logo-dark.png";
 import Dropdown from "./Dropdown";
 export default function Navbar() {
