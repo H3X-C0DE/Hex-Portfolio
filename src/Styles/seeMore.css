@@ -1,6 +1,7 @@
 .seeMore-component {
   position: relative;
 }
+
 .seeMore {
   display: flex;
   justify-content: flex-end;
