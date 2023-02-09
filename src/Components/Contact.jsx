@@ -29,31 +29,43 @@ export default function ContactUs() {
     <section id="contact">
       <div className="content-wrapper">
         <FadeInOut>
-          <h2 className="about-title">Get in contact</h2>
+          <h2 className="about-title">Kontakt Meg</h2>
           <form onSubmit={sendEmail}>
             <div className="contact-form">
               <div className="left">
                 <input type="hidden" name="contact_number" />
-                <label>Name</label>
+                <label htmlFor="name">Name</label>
                 <input
+                  id="name"
                   type="text"
                   name="from_name"
-                  placeholder="Your name"
+                  placeholder="Navnet ditt"
                   required
                 />
-                <label>Email</label>
+                <label htmlFor="email">Email</label>
                 <input
+                  id="email"
                   type="email"
                   name="from_email"
-                  placeholder="Email@example.com"
+                  placeholder="Email@Eksempel.no"
                   required
                 />
-                <label>Subject</label>
-                <input type="text" name="subject" placeholder="Subject" />
+                <label htmlFor="subject">Subject</label>
+                <input
+                  id="subject"
+                  type="text"
+                  name="subject"
+                  placeholder="Emne"
+                />
               </div>
               <div className="right">
-                <label>Message</label>
-                <textarea name="html_message" placeholder="Hello!" required />
+                <label htmlFor="message">Message</label>
+                <textarea
+                  id="message"
+                  name="html_message"
+                  placeholder="Heisann! 😃/"
+                  required
+                />
               </div>
               <div className="submit-container">
                 <label id="isRobot">
