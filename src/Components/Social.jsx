@@ -24,7 +24,9 @@ export default function Social() {
                 rel="noreferrer"
                 href="https://github.com/H3X-C0DE"
               >
-                <i className="fa fa-lg fa-github"></i>
+                <i className="fa fa-lg fa-github">
+                  <span className="link-text">github</span>
+                </i>
               </a>
             </li>
             <li>
@@ -33,7 +35,9 @@ export default function Social() {
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/vetle-tessem/"
               >
-                <i className="fa fa-lg fa-linkedin"></i>
+                <i className="fa fa-lg fa-linkedin">
+                  <span className="link-text">linkedin</span>
+                </i>
               </a>
             </li>
             <li>
@@ -42,7 +46,9 @@ export default function Social() {
                 rel="noreferrer"
                 href="https://www.instagram.com/iihexyii/"
               >
-                <i className="fa fa-lg fa-instagram"></i>
+                <i className="fa fa-lg fa-instagram">
+                  <span className="link-text">instagram</span>
+                </i>
               </a>
             </li>
             {/* <button className="discord-btn" onclick="CopyToClip()">

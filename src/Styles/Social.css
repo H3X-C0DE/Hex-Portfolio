@@ -58,6 +58,11 @@ i {
   border: 1px solid var(--dark);
 }
 
+.link-text {
+  visibility: hidden;
+  position: absolute;
+}
+
 /* .discord-btn {
   cursor: pointer;
   background: none;
