@@ -22,7 +22,7 @@ export default function Cv() {
           </FadeInOut>
           <FadeInOut>
             <div className="cv-card">
-              <img src={img1} alt="company logo" />
+              <img src={img1} alt="EC-play logo" />
               <div className="cv-card-content">
                 <h3>Junior front-end developer</h3>
                 <p className="cv-card-under-title">
@@ -40,7 +40,7 @@ export default function Cv() {
           </FadeInOut>
           <FadeInOut>
             <div className="cv-card">
-              <img src={img3} alt="company logo" />
+              <img src={img3} alt="Nova spektrum logo" />
               <div className="cv-card-content">
                 <h3>Frivilig</h3>
                 <p className="cv-card-under-title">
@@ -61,7 +61,7 @@ export default function Cv() {
             <SeeMore>
               <FadeInOut>
                 <div className="cv-card">
-                  <img src={img7} alt="company logo" />
+                  <img src={img7} alt="Bergenfest logo" />
                   <div className="cv-card-content">
                     <h3>Frivilig</h3>
                     <p className="cv-card-under-title">
@@ -88,7 +88,7 @@ export default function Cv() {
           <div className="utdanning">
             <FadeInOut>
               <div className="cv-card">
-                <img src={img4} alt="company logo" />
+                <img src={img4} alt="Kodehode logo" />
                 <div className="cv-card-content">
                   <h3>KodeHode</h3>
                   <p className="cv-card-under-title">
@@ -109,7 +109,7 @@ export default function Cv() {
             <FadeInOut>
               <div className="utdanning">
                 <div className="cv-card">
-                  <img src={img2} alt="company logo" />
+                  <img src={img2} alt="Noroff logo" />
                   <div className="cv-card-content">
                     <h3>Noroff</h3>
                     <p className="cv-card-under-title">
@@ -128,7 +128,7 @@ export default function Cv() {
               <SeeMore>
                 <FadeInOut>
                   <div className="cv-card">
-                    <img src={img6} alt="company logo" />
+                    <img src={img6} alt="Årstad vgs logo" />
                     <div className="cv-card-content">
                       <h3>Årstad Videregående</h3>
                       <p className="cv-card-under-title">
@@ -146,7 +146,7 @@ export default function Cv() {
                     </div>
                   </div>
                   <div className="cv-card">
-                    <img src={img5} alt="company logo" />
+                    <img src={img5} alt="skjeberg logo" />
                     <div className="cv-card-content">
                       <h3>Skjeberg Folkehøyskole</h3>
                       <p className="cv-card-under-title">
