@@ -170,18 +170,17 @@ export default function Projects() {
                   href="https://thedarkgalaxy.netlify.app"
                   className="news-card__card-link"
                 >
-                  NewYear Countdown
+                  Rick & Morty Index
                 </a>
-                <img src={newYears} alt="" className="news-card__image" />
+                <img src={rickAndMorty} alt="" className="news-card__image" />
                 <div className="news-card__text-wrapper">
-                  <h2 className="news-card__title">NewYear Countdown</h2>
-                  <div className="news-card__post-date">Dec 22, 2022</div>
+                  <h2 className="news-card__title">Rick & Morty Index</h2>
+                  <div className="news-card__post-date">Dec 14, 2022 </div>
                   <div className="news-card__details-wrapper">
                     <p className="news-card__excerpt">
-                      Originally this was meant to be a Countdown to christmas
-                      but by the time It was almost new year so I switched it
-                      out so it would be a yearly Countdown instead of just to
-                      christmas.&hellip;
+                      the main focus of this project was learning how to use an
+                      API, so I tried to use the majority of the data that comes
+                      from the API i used&hellip;
                     </p>
                     <a
                       href="https://thedarkgalaxy.netlify.app"
@@ -199,19 +198,18 @@ export default function Projects() {
                   href="https://thedarkgalaxy.netlify.app"
                   className="news-card__card-link"
                 >
-                  The Dark Galaxy
+                  NewYear Countdown
                 </a>
-                <img src={rickAndMorty} alt="" className="news-card__image" />
+                <img src={newYears} alt="" className="news-card__image" />
                 <div className="news-card__text-wrapper">
-                  <h2 className="news-card__title">The Dark Galaxy</h2>
-                  <div className="news-card__post-date">Oct 18, 2022</div>
+                  <h2 className="news-card__title">NewYear Countdown</h2>
+                  <div className="news-card__post-date">Dec 28, 2022</div>
                   <div className="news-card__details-wrapper">
                     <p className="news-card__excerpt">
-                      This was a group project, we had around October hench the
-                      dark and gloomy theme of the site my roll in the project
-                      went from only making landing page to making the contact
-                      page as well as making all pages have the same consistency
-                      throughout all pages&hellip;
+                      Originally this was meant to be a Countdown to christmas
+                      but by the time It was almost new year so I switched it
+                      out so it would be a yearly Countdown instead of just to
+                      christmas.&hellip;
                     </p>
                     <a
                       href="https://thedarkgalaxy.netlify.app"
