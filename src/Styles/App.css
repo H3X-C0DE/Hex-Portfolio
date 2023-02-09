@@ -62,7 +62,7 @@
   --light-blue: #5eb5f2;
   --bg-animation-1: #5b62df;
   --bg-animation-2: #fd0065;
-  --max-width-frame: 80vw;
+  --max-width-frame: 85vw;
 }
 
 p {
@@ -119,18 +119,4 @@ section {
   .navbar-item {
     width: 90%;
   }
-}
-
-/* footer  */
-
-footer {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  padding: 10px;
-}
-
-footer span {
-  font-weight: 300;
-  font-size: 0.8em;
 }
