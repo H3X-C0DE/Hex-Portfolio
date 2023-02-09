@@ -25,7 +25,7 @@ const FadeInOut = ({ children }) => {
       ref={elementRef}
       style={{
         opacity: isVisible ? 1 : 0,
-        transition: "opacity 1s",
+        transition: "opacity 0.8s",
       }}
     >
       {children}
