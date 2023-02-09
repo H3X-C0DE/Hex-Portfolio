@@ -5,12 +5,12 @@ function SeeMore({ children }) {
 
   return (
     <div className="seeMore-component">
-      <div className={isExpanded ? "seeMore active" : "seeMore collapsed"}>
+      <div className={isExpanded ? "seeMore more" : "seeMore less"}>
         {children}
       </div>
       <div className="seeMore-button">
         <button onClick={() => setIsExpanded(!isExpanded)}>
-          {isExpanded ? "See Less" : "See More"}
+          {isExpanded ? "Se mindre" : "Se mer"}
         </button>
       </div>
     </div>

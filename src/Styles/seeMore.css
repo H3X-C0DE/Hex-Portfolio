@@ -8,7 +8,7 @@
   flex-direction: column;
   transition: all 0.3s ease-in;
 }
-.collapsed {
+.less {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-20px);
@@ -16,7 +16,7 @@
   position: absolute;
 }
 
-.active {
+.more {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -40,6 +40,8 @@
   transition: 0.3s;
   margin: 0.5em auto;
 }
-.seeMore-button button:is(:hover, :focus) {
-  background-color: var(--body-bg);
+.seeMore-button button:hover {
+  /* background-color: var(--body-bg); */
+  color: var(--blue);
+  cursor: pointer;
 }
