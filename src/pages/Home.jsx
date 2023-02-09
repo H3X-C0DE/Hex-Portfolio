@@ -1,5 +1,3 @@
-//TODO: add Contact from.
-//TODO: add / convert javascript functions.
 import React from "react";
 import "../Styles/App.css";
 import HeroSection from "../Components/HeroSection";

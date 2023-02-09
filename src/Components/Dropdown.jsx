@@ -36,12 +36,12 @@ export default function Dropdown({ toggled, onClick }) {
         <ul>
           <li>
             <a className="navbar-link" href="#home">
-              Home
+              Hjem
             </a>
           </li>
           <li>
             <a className="navbar-link" href="#about">
-              About
+              Om&nbsp;Meg
             </a>
           </li>
           <li>
@@ -51,12 +51,12 @@ export default function Dropdown({ toggled, onClick }) {
           </li>
           <li>
             <a className="navbar-link" href="#portfolio">
-              Portfolio
+              Portefølje
             </a>
           </li>
           <li>
             <a className="navbar-link" href="#contact">
-              Contact
+              Kontakt
             </a>
           </li>
         </ul>

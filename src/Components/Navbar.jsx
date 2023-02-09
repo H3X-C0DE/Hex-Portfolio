@@ -14,12 +14,12 @@ export default function Navbar() {
         <ul className="navbar-list">
           <li className="navbar-item slide">
             <a className="navbar-link active" href="#home">
-              Home
+              Hjem
             </a>
           </li>
           <li className="navbar-item slide">
             <a className="navbar-link" href="#about">
-              About
+              Om&nbsp;Meg
             </a>
           </li>
           <li className="navbar-item slide">
@@ -29,12 +29,12 @@ export default function Navbar() {
           </li>
           <li className="navbar-item slide">
             <a className="navbar-link" href="#portfolio">
-              Portfolio
+              Portefølje
             </a>
           </li>
           <li className="navbar-item slide">
             <a className="navbar-link" href="#contact">
-              Contact
+              Kontakt
             </a>
           </li>
         </ul>
