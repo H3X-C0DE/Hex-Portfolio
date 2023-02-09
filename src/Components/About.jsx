@@ -45,36 +45,36 @@ export default function About() {
           <div className="tag-container">
             <h3 className="tag-title">Verktøy</h3>
             <div className="tag-content">
-              <div className="tag tag-teal">#Visual Studio Code</div>
-              <div className="tag tag-teal">#Adobe PhotoShop</div>
-              <div className="tag tag-teal">#Adobe Illustrator</div>
-              <div className="tag tag-teal">#Figma</div>
-              <div className="tag tag-teal">#Google</div>
+              <div className="tag tag-tool">#Visual Studio Code</div>
+              <div className="tag tag-tool">#Adobe PhotoShop</div>
+              <div className="tag tag-tool">#Adobe Illustrator</div>
+              <div className="tag tag-tool">#Figma</div>
+              <div className="tag tag-tool">#Google</div>
             </div>
 
             <h3 className="tag-title">Ferdigheter</h3>
             <div className="tag-content">
-              <div className="tag tag-purple">#HTML5</div>
-              <div className="tag tag-purple">#CSS</div>
-              <div className="tag tag-purple">#SCSS</div>
-              <div className="tag tag-purple">#Javascript</div>
-              <div className="tag tag-purple">#UI/UX</div>
-              <div className="tag tag-purple">#React</div>
-              <div className="tag tag-purple">#Design</div>
-              <div className="tag tag-purple">#GitHub</div>
-              <div className="tag tag-purple">#Bootstrap</div>
+              <div className="tag tag-skill">#HTML5</div>
+              <div className="tag tag-skill">#CSS</div>
+              <div className="tag tag-skill">#SCSS</div>
+              <div className="tag tag-skill">#Javascript</div>
+              <div className="tag tag-skill">#UI/UX</div>
+              <div className="tag tag-skill">#React</div>
+              <div className="tag tag-skill">#Design</div>
+              <div className="tag tag-skill">#GitHub</div>
+              <div className="tag tag-skill">#Bootstrap</div>
             </div>
 
             <h3 className="tag-title">utforsker</h3>
             <div className="tag-content">
-              {/* <div className="tag tag-pink">#HTML5</div>
-              <div className="tag tag-pink">#CSS</div> */}
-              {/* <div className="tag tag-pink">#Javascript</div> */}
-              <div className="tag tag-pink">#Rest-Api</div>
-              <div className="tag tag-pink">#Tailwind</div>
-              <div className="tag tag-pink">#MongoDB</div>
-              <div className="tag tag-pink">#Node.js/Express</div>
-              <div className="tag tag-pink">#Typescript</div>
+              {/* <div className="tag tag-learning">#HTML5</div>
+              <div className="tag tag-learning">#CSS</div> */}
+              {/* <div className="tag tag-learning">#Javascript</div> */}
+              <div className="tag tag-learning">#Rest-Api</div>
+              <div className="tag tag-learning">#Tailwind</div>
+              <div className="tag tag-learning">#MongoDB</div>
+              <div className="tag tag-learning">#Node.js/Express</div>
+              <div className="tag tag-learning">#Typescript</div>
             </div>
           </div>
         </FadeInOut>
