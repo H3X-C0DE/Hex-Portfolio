@@ -14,7 +14,8 @@ footer span {
 }
 .page-end {
   display: flex;
-  justify-content: space-between;
+  /* FUCK THIS GAP BUG  */
+  /* justify-content: space-between;  */
   flex-direction: row;
   background-color: var(--body-bg);
   border-top: 2px solid var(--gray-500);

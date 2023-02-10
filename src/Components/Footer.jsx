@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
             <p> © 2023 Vetle Tessem</p>
           </a>
-          <ul>
+          {/* <ul>
             <li>
               <a
                 target="_blank"
@@ -48,7 +48,7 @@ export default function Footer() {
                 </i>
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </section>
