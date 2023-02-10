@@ -53,7 +53,7 @@ label.fa-burger {
   padding: 0.5em;
   border: none;
   vertical-align: middle;
-  transition: all 0.4s ease;
+  /* transition: all 0.4s ease; */
 }
 #burgerCheck {
   display: none;
@@ -68,12 +68,36 @@ label.fa-burger:hover {
   outline: 0;
   color: var(--blue);
 }
-.navbar-list:active,
+/* .navbar-list:active,
 label.fa-burger:active {
   outline: 0;
   color: var(--blue);
-}
+} */
+@media only screen and (max-width: 700px) {
+  label.fa-burger {
+    color: black;
+    transition: color 0.5s ease;
+  }
 
+  label.fa-burger:hover,
+  label.fa-burger:focus {
+    color: transparent;
+    background-image: linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 5s infinite linear;
+  }
+
+  @keyframes hue {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(-360deg);
+    }
+  }
+}
 .navbar-item {
   margin: 0.4em;
   width: 100%;
