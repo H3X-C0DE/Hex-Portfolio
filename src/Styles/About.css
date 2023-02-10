@@ -89,15 +89,21 @@
   section {
     max-width: 100vw;
   }
-
+  .about-title {
+    margin-top: 0;
+  }
+  .pitch {
+    padding: 25px;
+  }
+  .pitch p {
+    margin: 10px 0;
+  }
   .about-container {
     padding: 30px 20px 30px 20px;
   }
   .tag-container {
-    /* margin: 18px; */
     margin: 0 auto;
-    /* margin: 0 5em; */
-    padding: 30px;
+    padding: 20px;
     max-width: 900px;
     border-radius: 15px;
   }

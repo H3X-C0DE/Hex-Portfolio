@@ -41,6 +41,9 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .cv-container {
+    padding: 0;
+  }
   .cv {
     padding: 30px 20px 30px 20px;
   }
