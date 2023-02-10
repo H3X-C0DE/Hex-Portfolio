@@ -24,7 +24,8 @@ export default function About() {
             <p>
               Heisann, Mitt navn er Vetle jeg er {age} og holder for tiden på
               med å studere front-end utvikling for å kunne få meg en IT
-              relatert, spennende og kreativ Jobb.
+              relatert, spennende og kreativ Jobb. Som kan bidra til å styrke
+              både interessen min og kunnskapen min innen yrket.
             </p>
             <p>
               Interessen min for webutvikling begynte med brukerprofiler på
@@ -67,9 +68,6 @@ export default function About() {
 
             <h3 className="tag-title">utforsker</h3>
             <div className="tag-content">
-              {/* <div className="tag tag-learning">#HTML5</div>
-              <div className="tag tag-learning">#CSS</div> */}
-              {/* <div className="tag tag-learning">#Javascript</div> */}
               <div className="tag tag-learning">#Rest-Api</div>
               <div className="tag tag-learning">#Tailwind</div>
               <div className="tag tag-learning">#MongoDB</div>
