@@ -59,8 +59,7 @@ i {
 }
 
 .link-text {
-  visibility: hidden;
-  position: absolute;
+  display: none;
 }
 /* to prevent buttom from getting stuck in a hover state when pressed on mobile */
 @media only screen and (max-width: 800px) {

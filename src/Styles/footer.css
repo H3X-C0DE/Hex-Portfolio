@@ -14,8 +14,7 @@ footer span {
 }
 .page-end {
   display: flex;
-  /* FUCK THIS GAP BUG  */
-  /* justify-content: space-between;  */
+  justify-content: space-between;
   flex-direction: row;
   background-color: var(--body-bg);
   border-top: 2px solid var(--gray-500);
@@ -97,12 +96,13 @@ footer span {
   opacity: 1;
 }
 
-.page-end ul {
+.footer-SoM {
   display: flex;
   flex-direction: row;
   list-style: none;
+  justify-content: end;
 }
-.page-end ul li i {
+.footer-SoM i {
   font-size: 1em;
   color: var(--gray-800);
   padding: 0.3rem auto;
