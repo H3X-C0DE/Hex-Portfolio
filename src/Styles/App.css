@@ -66,6 +66,10 @@
   --max-width-frame: 85vw;
 }
 
+#SECRETS {
+  display: none;
+}
+
 p {
   margin: 10px;
 }
