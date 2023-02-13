@@ -167,7 +167,7 @@ export default function Projects() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://thedarkgalaxy.netlify.app"
+                  href="https://rick-and-morty-index.netlify.app/"
                   className="news-card__card-link"
                 >
                   Rick & Morty Index
@@ -183,7 +183,7 @@ export default function Projects() {
                       from the API i used&hellip;
                     </p>
                     <a
-                      href="https://thedarkgalaxy.netlify.app"
+                      href="https://rick-and-morty-index.netlify.app/"
                       className="news-card__read-more"
                     >
                       Visit page <i className="fas fa-long-arrow-alt-right"></i>
@@ -195,7 +195,7 @@ export default function Projects() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://thedarkgalaxy.netlify.app"
+                  href="https://hex-countdown.netlify.app/"
                   className="news-card__card-link"
                 >
                   NewYear Countdown
@@ -212,7 +212,7 @@ export default function Projects() {
                       christmas.&hellip;
                     </p>
                     <a
-                      href="https://thedarkgalaxy.netlify.app"
+                      href="https://hex-countdown.netlify.app/"
                       className="news-card__read-more"
                     >
                       Visit page <i className="fas fa-long-arrow-alt-right"></i>
