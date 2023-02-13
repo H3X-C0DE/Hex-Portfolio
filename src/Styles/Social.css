@@ -58,6 +58,20 @@ i {
   border: 1px solid var(--dark);
 }
 
+.link-text {
+  display: none;
+}
+/* to prevent buttom from getting stuck in a hover state when pressed on mobile */
+@media only screen and (max-width: 800px) {
+  .social-media i:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    background-color: var(--body-bg);
+    color: var(--dark);
+    border: 1px solid var(--dark);
+  }
+}
 /* .discord-btn {
   cursor: pointer;
   background: none;

@@ -1,6 +1,5 @@
 /*-------------Navigation-------------*/
 #navbar {
-  transition: all 0.5s ease;
   position: fixed;
   height: 64px;
   background-color: var(--body-bg);
@@ -26,7 +25,6 @@
 }
 .home-link img {
   width: 35px;
-  border-radius: 50px;
   transition: all 0.5s ease;
 }
 .home-link span {
@@ -53,27 +51,60 @@ label.fa-burger {
   padding: 0.5em;
   border: none;
   vertical-align: middle;
-  transition: all 0.4s ease;
+  /* transition: all 0.4s ease; */
 }
 #burgerCheck {
   display: none;
 }
+label,
+label span {
+  display: none;
+}
+
 .navbar-list:hover,
 label.fa-burger:hover {
   outline: 0;
   color: var(--blue);
 }
-.navbar-list:active,
+/* .navbar-list:active,
 label.fa-burger:active {
   outline: 0;
   color: var(--blue);
-}
+} */
+@media only screen and (max-width: 700px) {
+  label.fa-burger {
+    color: black;
+    transition: color 0.5s ease;
+  }
 
+  label.fa-burger:hover,
+  label.fa-burger:focus {
+    color: transparent;
+    background-image: linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 5s infinite linear;
+  }
+
+  @keyframes hue {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(-360deg);
+    }
+  }
+}
 .navbar-item {
   margin: 0.4em;
   width: 100%;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease-in-out;
 }
-
+.active {
+  border-bottom: 3px solid var(--blue);
+}
 .home-link,
 .navbar-link {
   color: var(--dark);
@@ -83,10 +114,6 @@ label.fa-burger:active {
   align-items: center;
 }
 
-.home-link:is(:focus, :hover) {
-  color: var(--dark);
-}
-
 .navbar-link {
   justify-content: center;
   width: 100%;
@@ -94,6 +121,7 @@ label.fa-burger:active {
   border-radius: 5px;
   text-transform: uppercase;
 }
+
 /* nav link text */
 .navbar-link:is(:focus, :hover) {
   color: var(--blue);
@@ -161,7 +189,7 @@ label.fa-burger:active {
   transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
 }
 
-.menu.active {
+.menu.isOpen {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -172,21 +200,21 @@ label.fa-burger:active {
   padding: 0;
   margin: 0;
 }
-
-.menu li {
+.navbar-item-menu {
+  margin: 0.4em;
+  width: 100%;
   border-bottom: 1px solid var(--gray-400);
+  transition: all 0.3s ease-in-out;
 }
-.menu ul .last-li {
-  border-bottom: none;
+.isOpen .active-menu {
+  border-bottom: 3px solid var(--blue);
 }
+
 .menu li a {
   text-decoration: none;
   color: var(--dark);
   padding: 15px 20px;
   display: block;
-}
-
-.menu-trigger {
 }
 
 .menu-trigger span {

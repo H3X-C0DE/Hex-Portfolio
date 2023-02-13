@@ -1,13 +1,25 @@
-.footer-container {
-  /* CSS */
+footer {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  padding: 10px;
 }
 
+footer span {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+.footer-container {
+  padding-top: 27vh;
+}
 .page-end {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
   background-color: var(--body-bg);
-  /* padding: 0.6em; */
+  border-top: 2px solid var(--gray-500);
+  padding: 0.5em 0 0;
+  margin: 0 10px;
 }
 .page-end a {
   display: flex;
@@ -52,14 +64,11 @@
 .tooltip {
   position: relative;
   width: fit-content;
-  /* display: inline-block; */
-  /* border-bottom: 1px dotted black; */
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  /* background-color: #555; */
   color: rgb(0, 0, 0);
   text-align: center;
   border-radius: 6px;
@@ -67,7 +76,6 @@
   position: absolute;
   z-index: 1;
   bottom: 75%;
-  /* left: 50%; */
   margin-left: -75px;
   opacity: 0;
   transition: opacity 0.3s;
@@ -81,8 +89,6 @@
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
-  /* border-style: solid; */
-  /* border-color: #555 transparent transparent transparent; */
 }
 
 .tooltip:hover .tooltiptext {
@@ -90,3 +96,14 @@
   opacity: 1;
 }
 
+.footer-SoM {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: end;
+}
+.footer-SoM i {
+  font-size: 1em;
+  color: var(--gray-800);
+  padding: 0.3rem auto;
+}

@@ -72,29 +72,38 @@
   text-transform: uppercase;
   cursor: pointer;
 }
-.tag-teal {
-  background-color: #47bcd4;
+.tag-tool {
+  background-color: #4ecce5;
+  color: var(--gray--800);
 }
-.tag-purple {
-  background-color: #5e76bf;
+.tag-skill {
+  background-color: #6ee196;
+  color: var(--gray--800);
 }
-.tag-pink {
-  background-color: #cd5b9f;
+.tag-learning {
+  background-color: #e869b5;
+  color: var(--gray--800);
 }
 
 @media only screen and (max-width: 800px) {
   section {
     max-width: 100vw;
   }
-
+  .about-title {
+    margin-top: 0;
+  }
+  .pitch {
+    padding: 25px;
+  }
+  .pitch p {
+    margin: 10px 0;
+  }
   .about-container {
     padding: 30px 20px 30px 20px;
   }
   .tag-container {
-    /* margin: 18px; */
     margin: 0 auto;
-    /* margin: 0 5em; */
-    padding: 30px;
+    padding: 20px;
     max-width: 900px;
     border-radius: 15px;
   }

@@ -4,7 +4,7 @@ import "../Styles/HeroSection.css";
 import PfpToggle from "./misc/pfpToggle";
 export default function HeroSection() {
   return (
-    <div id="top-home" className="main-container">
+    <div id="home" className="main-container">
       <div className="container">
         <div className="banner-container">
           <div className="banner"></div>

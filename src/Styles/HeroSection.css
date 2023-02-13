@@ -134,7 +134,6 @@ a:hover {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-right: solid 2px var(--light-green);
   white-space: nowrap;
   overflow: hidden;
   color: var(--body-color);
@@ -145,24 +144,4 @@ a:hover {
   animation: animated-text 4s steps(29, end) 1s 1 normal both,
     animated-cursor 600ms steps(29, end) infinite;
   animation-delay: 1s;
-}
-
-/*-------------Cursor Animation-------------*/
-
-@keyframes animated-cursor {
-  from {
-    border-right-color: var(--light-green);
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
-
-@keyframes cursor-fade {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
 }
