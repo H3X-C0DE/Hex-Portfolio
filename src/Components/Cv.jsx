@@ -107,24 +107,6 @@ export default function Cv() {
 
             <FadeInOut>
               <div className="cv-card">
-                <img src={img1} alt="EC-play logo" />
-                <div className="cv-card-content">
-                  <h3>Junior front-end developer</h3>
-                  <p className="cv-card-under-title">
-                    EC-Play <span>·</span> Sesong
-                  </p>
-                  <p className="cv-card-info">Jun 2021 - Aug 2021 · 3 mos</p>
-                  <p className="cv-card-info">Bergen, Norge</p>
-                  <p>
-                    Jeg lagde componenter til web-Appen deres i typescript og
-                    jobbet med design til sider som ikke var laget enda som for
-                    ekempel email verification landings side og lignende.
-                  </p>
-                </div>
-              </div>
-            </FadeInOut>
-            <FadeInOut>
-              <div className="cv-card">
                 <img src={img3} alt="Nova spektrum logo" />
                 <div className="cv-card-content">
                   <h3>Frivilig</h3>
@@ -143,24 +125,44 @@ export default function Cv() {
                   </p>
                 </div>
               </div>
-
+            </FadeInOut>
+            <div className="cv-card">
+              <img src={img7} alt="Bergenfest logo" />
+              <div className="cv-card-content">
+                <h3>Frivilig</h3>
+                <p className="cv-card-under-title">
+                  Bergenfest <span>·</span> Sesong
+                </p>
+                <p className="cv-card-info">Jun 2022 - Jun 2022 </p>
+                <p className="cv-card-info">Bergen, Norway</p>
+                <p>
+                  Jobbet som frivillig på Bergenfest og var for det meste å
+                  passet på utstyr til andre frivillige og passet på at de som
+                  var på vakt fikk kaffe og sånt når de kom på pause, men ble
+                  også sendt på andre stasjoner hvis det var mangel på folk
+                  siden jeg var det for å hjelpe til.
+                </p>
+              </div>
+            </div>
+            <FadeInOut>
               <SeeMore>
                 <FadeInOut>
                   <div className="cv-card">
-                    <img src={img7} alt="Bergenfest logo" />
+                    <img src={img1} alt="EC-play logo" />
                     <div className="cv-card-content">
-                      <h3>Frivilig</h3>
+                      <h3>Junior front-end developer</h3>
                       <p className="cv-card-under-title">
-                        Bergenfest <span>·</span> Sesong
+                        EC-Play <span>·</span> Sesong
                       </p>
-                      <p className="cv-card-info">Jun 2022 - Jun 2022 </p>
-                      <p className="cv-card-info">Bergen, Norway</p>
+                      <p className="cv-card-info">
+                        Jun 2021 - Aug 2021 · 3 mos
+                      </p>
+                      <p className="cv-card-info">Bergen, Norge</p>
                       <p>
-                        Jobbet som frivillig på Bergenfest og var for det meste
-                        å passet på utstyr til andre frivillige og passet på at
-                        de som var på vakt fikk kaffe og sånt når de kom på
-                        pause, men ble også sendt på andre stasjoner hvis det
-                        var mangel på folk siden jeg var det for å hjelpe til.
+                        Jeg lagde componenter til web-Appen deres i typescript
+                        og jobbet med design til sider som ikke var laget enda
+                        som for ekempel email verification landings side og
+                        lignende.
                       </p>
                     </div>
                   </div>
