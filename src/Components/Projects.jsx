@@ -7,7 +7,7 @@ import securityGenImage from "../Assets/Images/projects/404Security.jpg";
 import soundPad from "../Assets/Images/projects/soundPad.jpg";
 import youAreAwesome from "../Assets/Images/projects/youareawesome.jpg";
 import theDarkGalaxy from "../Assets/Images/projects/thedarkgalaxy.jpg";
-import newYears from "../Assets/Images/projects/newYear.png";
+import minesweeper from "../Assets/Images/projects/MINE-SWEEPER.png";
 import rickAndMorty from "../Assets/Images/projects/rickAndMorty.png";
 import FadeInOut from "./misc/scrollInOut";
 export default function Projects() {
@@ -200,7 +200,7 @@ export default function Projects() {
                 >
                   Mine-Sweeper
                 </a>
-                <img src={newYears} alt="" className="news-card__image" />
+                <img src={minesweeper} alt="" className="news-card__image" />
                 <div className="news-card__text-wrapper">
                   <h2 className="news-card__title">Mine-Sweeper</h2>
                   <div className="news-card__post-date">Feb 27, 2022</div>
