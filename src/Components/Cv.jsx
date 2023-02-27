@@ -18,73 +18,8 @@ export default function Cv() {
         <div className="cv-container">
           <FadeInOut>
             <h2 className="about-title">Curriculum Vitae</h2>
-            <h2 className="cv-title">Erfaring</h2>
-          </FadeInOut>
-          <FadeInOut>
-            <div className="cv-card">
-              <img src={img1} alt="EC-play logo" />
-              <div className="cv-card-content">
-                <h3>Junior front-end developer</h3>
-                <p className="cv-card-under-title">
-                  EC-Play <span>·</span> Sesong
-                </p>
-                <p className="cv-card-info">Jun 2021 - Aug 2021 · 3 mos</p>
-                <p className="cv-card-info">Bergen, Norge</p>
-                <p>
-                  Jeg lagde componenter til web-Appen deres i typescript og
-                  jobbet med design til sider som ikke var laget enda som for
-                  ekempel email verification landings side og lignende.
-                </p>
-              </div>
-            </div>
-          </FadeInOut>
-          <FadeInOut>
-            <div className="cv-card">
-              <img src={img3} alt="Nova spektrum logo" />
-              <div className="cv-card-content">
-                <h3>Frivilig</h3>
-                <p className="cv-card-under-title">
-                  NOVA Spektrum <span>·</span> Sesong
-                </p>
-                <p className="cv-card-info">Nov 2014 - Nov 2022 </p>
-                <p className="cv-card-info">Lillestrøm, Viken, Norway</p>
-                <p>
-                  Har jobbet på Spillexpo I flere år som frivilig. Jeg reiser
-                  tilbake vært år for å delta, nå er jeg med som frivilig leder
-                  for andre frivilige og hjelper til 110% i de 3 dagene det
-                  pågår sånn at Spillexpo er og blir en fantastik opplevelse for
-                  så mange som mulig, for både gjester og frivilige.
-                </p>
-              </div>
-            </div>
-
-            <SeeMore>
-              <FadeInOut>
-                <div className="cv-card">
-                  <img src={img7} alt="Bergenfest logo" />
-                  <div className="cv-card-content">
-                    <h3>Frivilig</h3>
-                    <p className="cv-card-under-title">
-                      Bergenfest <span>·</span> Sesong
-                    </p>
-                    <p className="cv-card-info">Jun 2022 - Jun 2022 </p>
-                    <p className="cv-card-info">Bergen, Norway</p>
-                    <p>
-                      Jobbet som frivillig på Bergenfest og var for det meste å
-                      passet på utstyr til andre frivillige og passet på at de
-                      som var på vakt fikk kaffe og sånt når de kom på pause,
-                      men ble også sendt på andre stasjoner hvis det var mangel
-                      på folk siden jeg var det for å hjelpe til.
-                    </p>
-                  </div>
-                </div>
-              </FadeInOut>
-            </SeeMore>
-          </FadeInOut>
-          <FadeInOut>
             <h2 className="cv-title">Utdanning</h2>
           </FadeInOut>
-
           <div className="utdanning">
             <FadeInOut>
               <div className="cv-card">
@@ -94,13 +29,13 @@ export default function Cv() {
                   <p className="cv-card-under-title">
                     Kurs <span>·</span> Front-End Development
                   </p>
-                  <p className="cv-card-info">Sep 2022</p>
+                  <p className="cv-card-info">Sep 2022 - DD</p>
                   <p className="cv-card-info">Bergen, Norge</p>
                   <p>
-                    Et fantastik kurs hvor jeg har lært en hel del om front-end
+                    Et fantastik kurs hvor jeg har lært mye om front-end
                     relatert kunnskap og hvordan jobbe i gruppe under prosjekter
                     med andre igjennom github. Var også innom et lite tileggs
-                    kurs innen backend hvor jeg Lærte om node.js, SQL, Express
+                    kurs innen backend hvor jeg lærte om node.js, SQL, Express
                     og MongoDB.
                   </p>
                 </div>
@@ -160,6 +95,72 @@ export default function Cv() {
                         Lærte blant annet farge teori, komposison, Typography,
                         Photograpy og annet mix media og ikke minst samarbeid
                         med andre.
+                      </p>
+                    </div>
+                  </div>
+                </FadeInOut>
+              </SeeMore>
+            </FadeInOut>
+            <FadeInOut>
+              <h2 className="cv-title">Erfaring</h2>
+            </FadeInOut>
+
+            <FadeInOut>
+              <div className="cv-card">
+                <img src={img1} alt="EC-play logo" />
+                <div className="cv-card-content">
+                  <h3>Junior front-end developer</h3>
+                  <p className="cv-card-under-title">
+                    EC-Play <span>·</span> Sesong
+                  </p>
+                  <p className="cv-card-info">Jun 2021 - Aug 2021 · 3 mos</p>
+                  <p className="cv-card-info">Bergen, Norge</p>
+                  <p>
+                    Jeg lagde componenter til web-Appen deres i typescript og
+                    jobbet med design til sider som ikke var laget enda som for
+                    ekempel email verification landings side og lignende.
+                  </p>
+                </div>
+              </div>
+            </FadeInOut>
+            <FadeInOut>
+              <div className="cv-card">
+                <img src={img3} alt="Nova spektrum logo" />
+                <div className="cv-card-content">
+                  <h3>Frivilig</h3>
+                  <p className="cv-card-under-title">
+                    NOVA Spektrum <span>·</span> Sesong
+                  </p>
+                  <p className="cv-card-info">Nov 2014 - Nov 2022 </p>
+                  <p className="cv-card-info">Lillestrøm, Viken, Norway</p>
+                  <p>
+                    Har jobbet på Spillexpo I flere år som frivilig. Jeg reiser
+                    tilbake vært år for å delta, nå er jeg med som frivilig
+                    leder for andre frivilige og hjelper til 110% i de 3 dagene
+                    det pågår sånn at Spillexpo er og blir en fantastik
+                    opplevelse for så mange som mulig, for både gjester og
+                    frivilige.
+                  </p>
+                </div>
+              </div>
+
+              <SeeMore>
+                <FadeInOut>
+                  <div className="cv-card">
+                    <img src={img7} alt="Bergenfest logo" />
+                    <div className="cv-card-content">
+                      <h3>Frivilig</h3>
+                      <p className="cv-card-under-title">
+                        Bergenfest <span>·</span> Sesong
+                      </p>
+                      <p className="cv-card-info">Jun 2022 - Jun 2022 </p>
+                      <p className="cv-card-info">Bergen, Norway</p>
+                      <p>
+                        Jobbet som frivillig på Bergenfest og var for det meste
+                        å passet på utstyr til andre frivillige og passet på at
+                        de som var på vakt fikk kaffe og sånt når de kom på
+                        pause, men ble også sendt på andre stasjoner hvis det
+                        var mangel på folk siden jeg var det for å hjelpe til.
                       </p>
                     </div>
                   </div>
