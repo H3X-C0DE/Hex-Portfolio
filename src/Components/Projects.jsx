@@ -195,24 +195,25 @@ export default function Projects() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://hex-countdown.netlify.app/"
+                  href="https://mine-sweeper-98.netlify.app/"
                   className="news-card__card-link"
                 >
-                  NewYear Countdown
+                  Mine-Sweeper
                 </a>
                 <img src={newYears} alt="" className="news-card__image" />
                 <div className="news-card__text-wrapper">
-                  <h2 className="news-card__title">NewYear Countdown</h2>
-                  <div className="news-card__post-date">Dec 28, 2022</div>
+                  <h2 className="news-card__title">Mine-Sweeper</h2>
+                  <div className="news-card__post-date">Feb 27, 2022</div>
                   <div className="news-card__details-wrapper">
                     <p className="news-card__excerpt">
-                      Originally this was meant to be a Countdown to christmas
-                      but by the time It was almost new year so I switched it
-                      out so it would be a yearly Countdown instead of just to
-                      christmas.&hellip;
+                      This is my take on the classic minesweeper game. however
+                      its made with vanilla Javascript for practice purposes. It
+                      was a lot of fun to make and play around with and sharing
+                      it with others to get feedback so I could update it after
+                      user needs&hellip;
                     </p>
                     <a
-                      href="https://hex-countdown.netlify.app/"
+                      href="https://mine-sweeper-98.netlify.app/"
                       className="news-card__read-more"
                     >
                       Visit page <i className="fas fa-long-arrow-alt-right"></i>
