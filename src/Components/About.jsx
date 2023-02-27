@@ -10,18 +10,18 @@ export default function About() {
           <div className="pitch">
             <p>
               For tiden holder jeg på med utdanne meg som front-end utvikler.
-              som en utvikler til jeg bruke min kreativitet og faglig tyngde
+              Som en utvikler til jeg bruke min kreativitet og faglig tyngde
               kunne bistå bedrifter innen ulike font-end oppdrag.
             </p>
             <p>
-              Jeg har stor interesse for faget og egentlig strekker denne
-              interessen seg tilbake til da jeg på egenhånd lærte meg å bruke
-              CSS og Bbcoder. Som person er jeg svært opptatt av det visuelle og
-              vil i samarbeid med oppdragsgiver kunne tilby den beste løsningen,
-              både visuelt og funksjonelt.
+              Jeg har stor interesse for faget og interessen strekker seg
+              tilbake til da jeg på egenhånd lærte meg å bruke CSS og bbcoder.
+              Som person er jeg svært opptatt av det visuelle og vil i samarbeid
+              med oppdragsgiver kunne tilby den beste løsningen, både visuelt og
+              funksjonelt.
             </p>
             <p>
-              Nettopp det visuelle utvikler jeg hele tiden gjennom fotografering
+              Mitt visuelle talent utvikler jeg hele tiden gjennom fotografering
               og redigering. Kikk gjerne innom resten av portfolioen og bli
               kjent med verktøyene jeg behersker og hva jeg kan tilby.
             </p>
