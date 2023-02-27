@@ -1,20 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../Styles/About.css";
 import FadeInOut from "./misc/scrollInOut";
 export default function About() {
-  const [age, setAge] = useState(0);
-
-  //update Age so i don't have to update it every year :)
-  const today = new Date();
-  const birthdate = new Date("August 22, 1993");
-  const diffTime = today - birthdate;
-  const ageInDays = diffTime / (1000 * 60 * 60 * 24);
-  const ageInYears = Math.floor(ageInDays / 365);
-
-  useEffect(() => {
-    setAge(ageInYears);
-  }, [ageInYears]);
-
   return (
     <section id="about">
       <div className="about-container">
@@ -22,23 +9,26 @@ export default function About() {
           <h2 className="about-title">Om Meg</h2>
           <div className="pitch">
             <p>
-              Heisann, Mitt navn er Vetle jeg er {age} og holder for tiden på
-              med å studere front-end utvikling for å kunne få meg en IT
-              relatert, spennende og kreativ Jobb. Som kan bidra til å styrke
-              både interessen min og kunnskapen min innen yrket.
+              For tiden holder jeg på med utdanne meg som front-end utvikler.
+              som en utvikler til jeg bruke min kreativitet og faglig tyngde
+              kunne bistå bedrifter innen ulike font-end oppdrag.
             </p>
             <p>
-              Interessen min for webutvikling begynte med brukerprofiler på
-              nettsider som hadde muligheter til å bruke CSS og BBcoder til å
-              gjøre profilen mer unike. Interessen min har bare vokst siden den
-              gang siden jeg alltid elsker å være kreative og jobbe med visuelt
-              arbeid som fotografering, design og lignende. På fritiden liker
-              jeg å spille dataspill med venner på nett og se serier.
+              Jeg har stor interesse for faget og egentlig strekker denne
+              interessen seg tilbake til da jeg på egenhånd lærte meg å bruke
+              CSS og Bbcoder. Som person er jeg svært opptatt av det visuelle og
+              vil i samarbeid med oppdragsgiver kunne tilby den beste løsningen,
+              både visuelt og funksjonelt.
             </p>
             <p>
-              Drømen er å bli en fullstack utvikler som kan delta i støre
-              prosjekter som andre kan ta nytte av, som jeg kan være stolt av å
-              ha vært med på.
+              Nettopp det visuelle utvikler jeg hele tiden gjennom fotografering
+              og redigering. Kikk gjerne innom resten av portfolioen og bli
+              kjent med verktøyene jeg behersker og hva jeg kan tilby.
+            </p>
+            <p>
+              Ta gjerne kontakt med meg om noe av det jeg kan bidra med for deg
+              om du er interesset og du vil møte en hyggelig, løsningsorientert,
+              kreativ og pliktoppfyllende Frontender.
             </p>
           </div>
         </FadeInOut>
