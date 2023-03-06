@@ -9,7 +9,7 @@ export default function About() {
           <h2 className="about-title">Om Meg</h2>
           <div className="pitch">
             <p>
-              For tiden holder jeg på med utdanne meg som front-end utvikler.
+              For tiden holder jeg på med å utdanne meg som front-end utvikler.
               Som en utvikler til jeg bruke min kreativitet og faglig tyngde
               kunne bistå bedrifter innen ulike font-end oppdrag.
             </p>
