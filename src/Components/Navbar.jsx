@@ -1,19 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import "../Styles/Navbar.css";
 import logo from "../Assets/Images/hex-logo-dark.png";
 import Dropdown from "./Dropdown";
+const NAVBAR_HEIGHT = 50;
 export default function Navbar() {
   const [activeSection, setActiveSection] = useState("home");
-  const sections = ["home", "about", "cv", "portfolio", "contact"];
+  const sections = useMemo(
+    () => ["home", "about", "cv", "portfolio", "contact"],
+    []
+  );
 
   useEffect(() => {
     const handleScroll = () => {
       const sectionOffsets = {
         home: 0,
-        about: document.querySelector("#about").offsetTop - 50,
-        cv: document.querySelector("#cv").offsetTop - 50,
-        portfolio: document.querySelector("#portfolio").offsetTop - 50,
-        contact: document.querySelector("#contact").offsetTop - 50,
+        about: document.querySelector("#about").offsetTop - NAVBAR_HEIGHT,
+        cv: document.querySelector("#cv").offsetTop - NAVBAR_HEIGHT,
+        portfolio:
+          document.querySelector("#portfolio").offsetTop - NAVBAR_HEIGHT,
+        contact: document.querySelector("#contact").offsetTop - NAVBAR_HEIGHT,
       };
 
       const scrollPosition = window.pageYOffset;
@@ -32,7 +37,15 @@ export default function Navbar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [sections]);
+
+  const sectionText = {
+    home: "Hjem",
+    about: "Info",
+    cv: "Cv",
+    portfolio: "Portefølje",
+    contact: "Kontakt",
+  };
   return (
     <div id="navbar" className="navbar-container">
       <a href="/" id="logo-link" className="home-link">
@@ -50,11 +63,7 @@ export default function Navbar() {
               key={section}
             >
               <a className="navbar-link" href={`#${section}`}>
-                {section === "home" ? "Hjem" : ""}
-                {section === "about" ? "Info" : ""}
-                {section === "cv" ? "Cv" : ""}
-                {section === "portfolio" ? "Portefølje" : ""}
-                {section === "contact" ? "Kontakt" : ""}
+                {sectionText[section]}
               </a>
             </li>
           ))}
