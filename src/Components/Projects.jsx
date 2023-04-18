@@ -31,11 +31,11 @@ export default function Projects() {
               <div className="news-card__post-date">Feb 27, 2023</div>
               <div className="news-card__details-wrapper">
                 <p className="news-card__excerpt">
-                  This is my take on the classic minesweeper game. however its
-                  made with vanilla Javascript for practice purposes. It was a
-                  lot of fun to make and play around with and sharing it with
-                  others to get feedback so I could update it after user
-                  needs&hellip;
+                  My take on the classic minesweeper. However it's made with
+                  vanilla Javascript for practice purposes to get a better
+                  understanding of Javascript. as well as sharing it with others
+                  so I could get feedback and try and improve it after what
+                  users wanted/needed&hellip;
                 </p>
                 <a
                   href="https://mine-sweeper-98.netlify.app/"
@@ -63,7 +63,7 @@ export default function Projects() {
                 <p className="news-card__excerpt">
                   the main focus of this project was learning how to use an API,
                   so I tried to use the majority of the data that comes from the
-                  API i used&hellip;
+                  Rick & Morty Api&hellip;
                 </p>
                 <a
                   href="https://rick-and-morty-index.netlify.app/"
@@ -89,9 +89,9 @@ export default function Projects() {
               <div className="news-card__post-date">Nov 23, 2022</div>
               <div className="news-card__details-wrapper">
                 <p className="news-card__excerpt">
-                  Simple one pager with a set of buttons you can press for a
-                  funny sound, as well as pressing the keys on your
-                  keyboard&hellip;
+                  This is my One pager with a set of buttons you can press for
+                  some silly sounds, as well as pressing the keys on your
+                  keyboard from Q-U, A-H, Z-B&hellip;
                 </p>
                 <a
                   href="https://soundpad.netlify.app/"
@@ -119,9 +119,11 @@ export default function Projects() {
                 <p className="news-card__excerpt">
                   This was a group project, we had around October hench the dark
                   and gloomy theme of the site my roll in the project went from
-                  only making landing page to making the contact page as well as
-                  making all pages have the same consistency throughout all
-                  pages&hellip;
+                  only making landing page to making the contact page as well.
+                  and while I was at it i made sure all the pages had the right
+                  consistency throughout all 3 pages, since I wanted the design
+                  to look consistent despite 3 fresh students working
+                  together&hellip;
                 </p>
                 <a
                   href="https://thedarkgalaxy.netlify.app"
@@ -147,10 +149,10 @@ export default function Projects() {
               <div className="news-card__post-date">Nov 02, 2022</div>
               <div className="news-card__details-wrapper">
                 <p className="news-card__excerpt">
-                  My attempt on making a basic random password generator. This
-                  isn't 100% random and not really secure either since it only
-                  gives you a set of letters numbers and symbols in upper and
-                  lower case.
+                  My attempt on making a basic random password generator. It's
+                  using the math.random function to randomize the difference
+                  letters and numbers. as well as using a library resource to
+                  get some fun effects to it.
                 </p>
                 <a
                   href="https://404security.netlify.app/"
@@ -182,8 +184,9 @@ export default function Projects() {
                   <div className="news-card__post-date">Sep 29, 2022</div>
                   <div className="news-card__details-wrapper">
                     <p className="news-card__excerpt">
-                      Motivation is important so I made a motivational webpage
-                      that tried to give you a smile&hellip;
+                      While learning about CSS Animations and keyframes I ended
+                      up making a fun motivational project with the sole purpose
+                      of making the visitor smile😀&hellip;
                     </p>
                     <a
                       href="https://youareawesome.netlify.app/#"
@@ -209,8 +212,9 @@ export default function Projects() {
                   <div className="news-card__post-date">Sep 23, 2022</div>
                   <div className="news-card__details-wrapper">
                     <p className="news-card__excerpt">
-                      This is a simple practice website and on how to utilizing
-                      the Parallax style and added a topic of interest &hellip;
+                      This was a simple practice project on how to utilizing the
+                      Parallax style effect and added a topic of interest to
+                      make it look better and feel more complete&hellip;
                     </p>
                     <a
                       href="https://parallax-berserk.netlify.app/"
