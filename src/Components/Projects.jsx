@@ -28,7 +28,7 @@ export default function Projects() {
             <img src={minesweeper} alt="" className="news-card__image" />
             <div className="news-card__text-wrapper">
               <h2 className="news-card__title">Mine-Sweeper</h2>
-              <div className="news-card__post-date">Feb 27, 2022</div>
+              <div className="news-card__post-date">Feb 27, 2023</div>
               <div className="news-card__details-wrapper">
                 <p className="news-card__excerpt">
                   This is my take on the classic minesweeper game. however its
@@ -106,33 +106,6 @@ export default function Projects() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://youareawesome.netlify.app/#"
-              className="news-card__card-link"
-            >
-              You Are Awesome!
-            </a>
-            <img src={youAreAwesome} alt="" className="news-card__image" />
-            <div className="news-card__text-wrapper">
-              <h2 className="news-card__title">You Are Awesome!</h2>
-              <div className="news-card__post-date">Sep 29, 2022</div>
-              <div className="news-card__details-wrapper">
-                <p className="news-card__excerpt">
-                  Motivation is important so I made a motivational webpage that
-                  tried to give you a smile&hellip;
-                </p>
-                <a
-                  href="https://youareawesome.netlify.app/#"
-                  className="news-card__read-more"
-                >
-                  Visit page <i className="fas fa-long-arrow-alt-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="news-card">
-            <a
-              target="_blank"
-              rel="noreferrer"
               href="https://thedarkgalaxy.netlify.app"
               className="news-card__card-link"
             >
@@ -159,6 +132,35 @@ export default function Projects() {
               </div>
             </div>
           </div>
+          <div className="news-card">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://404security.netlify.app/"
+              className="news-card__card-link"
+            >
+              404 Security
+            </a>
+            <img src={securityGenImage} alt="" className="news-card__image" />
+            <div className="news-card__text-wrapper">
+              <h2 className="news-card__title">404 Security</h2>
+              <div className="news-card__post-date">Nov 02, 2022</div>
+              <div className="news-card__details-wrapper">
+                <p className="news-card__excerpt">
+                  My attempt on making a basic random password generator. This
+                  isn't 100% random and not really secure either since it only
+                  gives you a set of letters numbers and symbols in upper and
+                  lower case.
+                </p>
+                <a
+                  href="https://404security.netlify.app/"
+                  className="news-card__read-more"
+                >
+                  Visit page <i className="fas fa-long-arrow-alt-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </FadeInOut>
       <FadeInOut>
@@ -169,28 +171,22 @@ export default function Projects() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://404security.netlify.app/"
+                  href="https://youareawesome.netlify.app/#"
                   className="news-card__card-link"
                 >
-                  404 Security
+                  You Are Awesome!
                 </a>
-                <img
-                  src={securityGenImage}
-                  alt=""
-                  className="news-card__image"
-                />
+                <img src={youAreAwesome} alt="" className="news-card__image" />
                 <div className="news-card__text-wrapper">
-                  <h2 className="news-card__title">404 Security</h2>
-                  <div className="news-card__post-date">Nov 02, 2022</div>
+                  <h2 className="news-card__title">You Are Awesome!</h2>
+                  <div className="news-card__post-date">Sep 29, 2022</div>
                   <div className="news-card__details-wrapper">
                     <p className="news-card__excerpt">
-                      My attempt on making a basic random password generator.
-                      This isn't 100% random and not really secure either since
-                      it only gives you a set of letters numbers and symbols in
-                      upper and lower case.
+                      Motivation is important so I made a motivational webpage
+                      that tried to give you a smile&hellip;
                     </p>
                     <a
-                      href="https://404security.netlify.app/"
+                      href="https://youareawesome.netlify.app/#"
                       className="news-card__read-more"
                     >
                       Visit page <i className="fas fa-long-arrow-alt-right"></i>
