@@ -60,7 +60,7 @@ textarea {
   display: block;
   text-align: end;
   font-weight: 300;
-  margin: 0 auto;
+  padding: 0.5em 0 0.5em;
   width: 100%;
 }
 
@@ -79,5 +79,6 @@ textarea {
 
   #isRobot {
     width: 75%;
+    margin: 0 auto;
   }
 }

@@ -18,7 +18,7 @@ export default function HeroSection() {
         </div>
         <div className="info-container">
           <h1 className="name">Vetle Tessem</h1>
-          <h2 className="under-title">&lt; Front-End Student /&gt;</h2>
+          <h2 className="under-title">&lt; Junior Front-End Developer /&gt;</h2>
         </div>
         <Social />
       </div>

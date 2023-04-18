@@ -100,7 +100,7 @@ footer span {
   display: flex;
   flex-direction: row;
   list-style: none;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .footer-SoM i {
   font-size: 1em;

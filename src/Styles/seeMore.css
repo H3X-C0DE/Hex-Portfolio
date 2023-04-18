@@ -31,14 +31,15 @@
 }
 
 .seeMore-button button {
-  max-width: 100px;
-  border: none;
-  padding: 1em;
-  border-radius: 10px;
   background-color: var(--body-bg);
+  border: none;
+  border-radius: 10px;
   font-weight: 700;
+  margin: 0.3em auto;
+  max-width: 150px;
+  padding: 1em 0.5em;
   transition: 0.3s;
-  margin: 0.5em auto;
+  font-size: 1em;
 }
 .seeMore-button button:hover {
   /* background-color: var(--body-bg); */
