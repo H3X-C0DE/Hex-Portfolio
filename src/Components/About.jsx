@@ -9,9 +9,9 @@ export default function About() {
           <h2 className="about-title">Om Meg</h2>
           <div className="pitch">
             <p>
-              For tiden holder jeg på å utdanne meg som front-end utvikler. Som
-              en utvikler til jeg bruke min kreativitet og faglig tyngde kunne
-              bistå bedrifter innen ulike font-end oppdrag.
+              For øyebliket jobber jeg som intern hos et start-up selskap kalt
+              CanEat.no som front-end utvikler. Hvor jeg for det meste jobber
+              med WordPress, UI og UX og brukertesting av Appen.
             </p>
             <p>
               Jeg har stor interesse for faget og interessen strekker seg
@@ -54,15 +54,16 @@ export default function About() {
               <div className="tag tag-skill">#Design</div>
               <div className="tag tag-skill">#GitHub</div>
               <div className="tag tag-skill">#Bootstrap</div>
+              <div className="tag tag-skill">#Rest-Api</div>
             </div>
 
-            <h3 className="tag-title">utforsker</h3>
+            <h3 className="tag-title">Utforsker</h3>
             <div className="tag-content">
-              <div className="tag tag-learning">#Rest-Api</div>
               <div className="tag tag-learning">#Tailwind</div>
               <div className="tag tag-learning">#MongoDB</div>
               <div className="tag tag-learning">#Node.js/Express</div>
               <div className="tag tag-learning">#Typescript</div>
+              <div className="tag tag-learning">#.NET/C#</div>
             </div>
           </div>
         </FadeInOut>
