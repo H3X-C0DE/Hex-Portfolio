@@ -3,6 +3,7 @@ import "../Styles/Navbar.css";
 import logo from "../Assets/Images/hex-logo-dark.png";
 import Dropdown from "./Dropdown";
 const NAVBAR_HEIGHT = 50;
+const NAVBAR_BOTTOM = 600;
 export default function Navbar() {
   const [activeSection, setActiveSection] = useState("home");
   const sections = useMemo(
@@ -18,7 +19,7 @@ export default function Navbar() {
         cv: document.querySelector("#cv").offsetTop - NAVBAR_HEIGHT,
         portfolio:
           document.querySelector("#portfolio").offsetTop - NAVBAR_HEIGHT,
-        contact: document.querySelector("#contact").offsetTop - NAVBAR_HEIGHT,
+        contact: document.querySelector("#contact").offsetTop - NAVBAR_BOTTOM,
       };
 
       const scrollPosition = window.pageYOffset;
