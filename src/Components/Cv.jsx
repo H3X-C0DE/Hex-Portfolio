@@ -31,12 +31,13 @@ export default function Cv() {
                   </p>
                   <p className="cv-card-info">Sep 2022 - DD</p>
                   <p className="cv-card-info">Bergen, Norge</p>
-                  <p>
-                    Et fantastik kurs hvor jeg har lært mye om front-end
-                    relatert kunnskap og hvordan jobbe i gruppe under prosjekter
-                    med andre igjennom github. Var også innom et lite tileggs
-                    kurs innen backend hvor jeg lærte om node.js, SQL, Express
-                    og MongoDB.
+                  <p className="cv-card-p">
+                    Et fantastisk kurs som har gitt meg mye kunnskap innen
+                    front-end og lært meg hvordan man effektivt jobber i
+                    gruppeprosjekter gjennom bruk av GitHub. I tillegg fikk jeg
+                    muligheten til å delta på et tilleggs introduksjons kurs
+                    innen backend hvor jeg lærte om node.js, SQL, Express og
+                    MongoDB.
                   </p>
                 </div>
               </div>
@@ -52,9 +53,10 @@ export default function Cv() {
                     </p>
                     <p className="cv-card-info">Aug 2019 - May 2021</p>
                     <p className="cv-card-info">Bergen, Norge</p>
-                    <p>
-                      Lærte basic nivå i design, HTML5, CSS, Javascript, React,
-                      Rest-API, Word-press, og Typography bare for å nevne noe.
+                    <p className="cv-card-p">
+                      På dette kurset lærte jeg grunnleggende design, HTML5,
+                      CSS, Javascript, React, Rest-API, WordPress og typografi,
+                      for å nevne noen områder.
                     </p>
                   </div>
                 </div>
@@ -71,12 +73,14 @@ export default function Cv() {
                       </p>
                       <p className="cv-card-info">Aug 2015 - Jun 2017</p>
                       <p className="cv-card-info">Bergen, Hordaland, Norge</p>
-                      <p>
-                        tok opp 3rd året mitt på VGS for å fikse karakterer mens
-                        jeg gjorde noe jeg var interesert i samtidig. Så ble mye
-                        design innen f.eks product embalasje, plakat også fikk
-                        jeg lært meg videoredigering samt forbedret meg innen
-                        bilde redigering.
+                      <p className="cv-card-p">
+                        Jeg valgte å ta opp tredje året mitt på videregående
+                        skole for å forbedre karakterene mine samtidig som jeg
+                        kunne jobbe med noe jeg var interessert i. I løpet av
+                        denne perioden fokuserte jeg mye på design, spesielt
+                        innenfor produktemballasje og plakater. I tillegg lærte
+                        jeg videoredigering og forbedret mine ferdigheter innen
+                        bildebehandling.
                       </p>
                     </div>
                   </div>
@@ -91,10 +95,12 @@ export default function Cv() {
                       <p className="cv-card-info">
                         Sarpsborg, Østlandet, Norge
                       </p>
-                      <p>
-                        Lærte blant annet farge teori, komposison, Typography,
-                        Photograpy og annet mix media og ikke minst samarbeid
-                        med andre.
+                      <p className="cv-card-p">
+                        Da jeg gikk på folkehøyskolen, fikk jeg muligheten til å
+                        lære om ulike emner, blant annet fargeteori,
+                        komposisjon, typografi, fotografering og andre former
+                        for multimediaproduksjon. I tillegg var det fokus på
+                        samarbeid med andre og utvikling av sosiale ferdigheter.
                       </p>
                     </div>
                   </div>
@@ -115,13 +121,14 @@ export default function Cv() {
                   </p>
                   <p className="cv-card-info">Nov 2014 - Nov 2022 </p>
                   <p className="cv-card-info">Lillestrøm, Viken, Norway</p>
-                  <p>
-                    Har jobbet på Spillexpo I flere år som frivilig. Jeg reiser
-                    tilbake vært år for å delta, nå er jeg med som frivilig
-                    leder for andre frivilige og hjelper til 110% i de 3 dagene
-                    det pågår sånn at Spillexpo er og blir en fantastik
-                    opplevelse for så mange som mulig, for både gjester og
-                    frivilige.
+                  <p className="cv-card-p">
+                    Jeg har hatt gleden av å jobbe som frivillig på Spillexpo i
+                    flere år. Hvert år reiser jeg tilbake for å delta og de
+                    siste årene har jeg hatt rollen som frivillig koordinator.
+                    Denne rollen innebærer å støtte og avlaste ledelsen, samt
+                    sikre at nye frivillige får en god opplevelse. Målet er å
+                    gjøre Spillexpo til en fantastisk opplevelse for så mange
+                    som mulig, både gjester og frivillige.
                   </p>
                 </div>
               </div>
@@ -135,12 +142,12 @@ export default function Cv() {
                 </p>
                 <p className="cv-card-info">Jun 2022 - Jun 2022 </p>
                 <p className="cv-card-info">Bergen, Norway</p>
-                <p>
-                  Jobbet som frivillig på Bergenfest og var for det meste å
-                  passet på utstyr til andre frivillige og passet på at de som
-                  var på vakt fikk kaffe og sånt når de kom på pause, men ble
-                  også sendt på andre stasjoner hvis det var mangel på folk
-                  siden jeg var det for å hjelpe til.
+                <p className="cv-card-p">
+                  Jeg har jobbe som frivillig på Bergenfest, og hovedsakelig var
+                  mitt ansvar å passe på utstyret til andre frivillige. Jeg
+                  sørget også for at de som var på vakt fikk kaffe og annet når
+                  de hadde pauser. I tillegg ble jeg også sendt til andre
+                  stasjoner når det var behov for ekstra hjelp.
                 </p>
               </div>
             </div>
@@ -158,11 +165,12 @@ export default function Cv() {
                         Jun 2021 - Aug 2021 · 3 mos
                       </p>
                       <p className="cv-card-info">Bergen, Norge</p>
-                      <p>
-                        Jeg lagde componenter til web-Appen deres i typescript
-                        og jobbet med design til sider som ikke var laget enda
-                        som for ekempel email verification landings side og
-                        lignende.
+                      <p className="cv-card-p">
+                        Jeg hadde en sommerjobb der jeg jobbet med å lage
+                        komponenter til deres webapp i TypeScript. I tillegg
+                        fikk jeg også ansvaret med å designe sider som ennå ikke
+                        var utviklet, som for eksempel en landingsside for
+                        e-postbekreftelse og lignende.
                       </p>
                     </div>
                   </div>
