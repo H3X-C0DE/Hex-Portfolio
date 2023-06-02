@@ -66,7 +66,7 @@
   --max-width-frame: 85vw;
 }
 
-#SECRETS {
+#DEVELOPER_SECRETS {
   display: none;
 }
 
@@ -110,7 +110,7 @@ section {
     clip-path: polygon(100% 0, 100% 90%, 50% 100%, 50% 100%, 0% 90%, 0 0);
   }
   .under-title {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   .main-container {
     margin: 0;

@@ -10,8 +10,8 @@ export default function About() {
           <div className="pitch">
             <p>
               For øyebliket jobber jeg som intern hos et start-up selskap kalt
-              CanEat.no som front-end utvikler. Hvor jeg for det meste jobber
-              med WordPress, UI og UX og brukertesting av Appen.
+              CanEat som front-end utvikler. Hvor jeg for det meste jobber med
+              WordPress, UI og UX og brukertesting av Appen.
             </p>
             <p>
               Jeg har stor interesse for faget og interessen strekker seg
@@ -63,7 +63,13 @@ export default function About() {
               <div className="tag tag-learning">#MongoDB</div>
               <div className="tag tag-learning">#Node.js/Express</div>
               <div className="tag tag-learning">#Typescript</div>
-              <div className="tag tag-learning">#.NET/C#</div>
+              <div className="tag tag-learning">#.NET/C-Sharp</div>
+            </div>
+            <h3 className="tag-title">Hobbyer</h3>
+            <div className="tag-content">
+              <div className="tag tag-hobbies">#Gaming</div>
+              <div className="tag tag-hobbies">#Tegning</div>
+              <div className="tag tag-hobbies">#Fotografering</div>
             </div>
           </div>
         </FadeInOut>

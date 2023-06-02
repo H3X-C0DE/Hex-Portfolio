@@ -1,5 +1,5 @@
 import React from "react";
-import "../../Styles/AnimatedBg.css";
+import "../../Styles/animated.css";
 export default function AnimatedBg() {
   return (
     <>

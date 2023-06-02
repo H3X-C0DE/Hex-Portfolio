@@ -2,7 +2,7 @@
 /* Code By Tenzing Gaychey https://codepen.io/tgaychey/pen/PROMVy */
 .content-wrapper {
   margin: 0 auto;
-  max-width: 950px;
+  max-width: 1300px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -150,15 +150,4 @@
   padding: 0;
   margin: 0;
   background: none;
-}
-.seeMore-projects {
-  max-width: 950px;
-  display: flex;
-  flex-direction: row;
-  padding: 0 0.5em 0;
-}
-.seeMore-wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
 }
