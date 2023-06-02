@@ -37,7 +37,9 @@
 .pitch p {
   margin: 20px;
 }
-
+.pitch-text {
+  margin: 0 auto;
+}
 .hidden {
   display: none;
 }
@@ -99,6 +101,7 @@
   .pitch {
     padding: 25px;
   }
+
   .pitch p {
     margin: 10px 0;
   }
